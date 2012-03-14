@@ -1,3 +1,4 @@
+
 name: Thief
 default: false
 parents:
@@ -19,11 +20,11 @@ projectile-damage:
 projectile-damage-level:
 permitted-skills:
     Sneak:
-        level: 1  
+        level: 1
     PickPocket:
         level: 1  
-		mana: 15
-		cooldown: 20000
+        mana: 15
+        cooldown: 20000
     Smoke:
         level: 1
         duration: 30000
@@ -32,7 +33,7 @@ permitted-skills:
     Superjump:
        level: 10
        mana: 5
-   One:
+    One:
         level: 15
         speed-multiplier: 1.5
         mana: 30
