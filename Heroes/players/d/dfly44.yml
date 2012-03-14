@@ -1,0 +1,13 @@
+class: Warrior
+secondary-class: Miner
+verbose: true
+suppressed: []
+mana: 100
+health: 34
+skill-settings: {}
+cooldowns: {}
+experience:
+  Warrior: 164.088
+  Miner: 29.0
+  Citizen: 0.0
+binds: {}

@@ -1,0 +1,32 @@
+class: Cleric
+secondary-class: Enchanter
+verbose: true
+suppressed: []
+mana: 146
+health: 44
+skill-settings:
+  recall:
+    world: world
+    x: 279.9375
+    y: 80.0
+    z: 336.03125
+    yaw: 180.60540771484375
+    pitch: 68.09999084472656
+cooldowns: {}
+experience:
+  Miner: 0.0
+  Enchanter: 13278.445000000016
+  Citizen: 0.0
+  Cleric: 19445.617000000017
+binds:
+  BOOK: Recall
+  CLAY_BALL: Recall
+  STONE_SWORD: Harmtouch
+  SEEDS: Recall
+  INK_SACK: GroupHeal
+  IRON_PICKAXE: Harmtouch
+  MELON: Pray
+  YELLOW_FLOWER: Pray
+  STONE_SPADE: GroupHeal
+  STICK: Slow
+  IRON_LEGGINGS: Disenchant

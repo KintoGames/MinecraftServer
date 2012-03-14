@@ -1,0 +1,29 @@
+class: Rogue
+secondary-class: Alchemist
+verbose: false
+suppressed: []
+mana: 100
+health: 32
+skill-settings:
+  recall:
+    world: world
+    x: 282.56681692224925
+    y: 75.0
+    z: 314.9687082871859
+    yaw: 149.2498779296875
+    pitch: 21.299989700317383
+cooldowns: {}
+experience:
+  Rogue: 6835.4280000000035
+  Citizen: 0.0
+  Alchemist: 133.20000000000002
+binds:
+  STONE_SWORD: Sneak
+  IRON_SWORD: AssassinsBlade
+  WOOD_SPADE: Sneak
+  WOOD_SWORD: AssassinsBlade
+  STICK: Sneak
+  DIAMOND: AssassinsBlade
+  SULPHUR: Sneak
+  PAINTING: Sneak
+  GOLD_NUGGET: Sneak

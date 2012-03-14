@@ -1,0 +1,10 @@
+class: Citizen
+verbose: true
+suppressed: []
+mana: 100
+health: 19
+skill-settings: {}
+cooldowns: {}
+experience:
+  Citizen: 14.0
+binds: {}

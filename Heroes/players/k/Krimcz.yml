@@ -1,0 +1,16 @@
+class: Rogue
+secondary-class: Enchanter
+verbose: true
+suppressed: []
+mana: 100
+health: 29
+skill-settings: {}
+cooldowns: {}
+experience:
+  Warrior: 0.0
+  Rogue: 426.0
+  Enchanter: 530.0
+  Citizen: 0.0
+  Mage: 0.0
+  Monk: 0.0
+binds: {}

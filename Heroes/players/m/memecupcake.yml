@@ -1,0 +1,14 @@
+class: Mage
+verbose: true
+suppressed: []
+mana: 110
+health: 21
+skill-settings: {}
+cooldowns: {}
+experience:
+  Citizen: 0.0
+  Mage: 406.91200000000003
+binds:
+  STICK: Piggify
+  WOOD: Port
+  WOOD_SWORD: Icebolt

@@ -1,0 +1,11 @@
+class: Warrior
+verbose: true
+suppressed: []
+mana: 21
+health: 34
+skill-settings: {}
+cooldowns: {}
+experience:
+  Warrior: 0.0
+  Citizen: 0.0
+binds: {}

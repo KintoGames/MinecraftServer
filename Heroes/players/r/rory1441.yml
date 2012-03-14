@@ -1,0 +1,22 @@
+class: Warrior
+verbose: true
+suppressed: []
+mana: 72
+health: 33
+skill-settings:
+  recall:
+    world: world
+    x: 356.28125
+    y: 56.0
+    z: 391.28125
+    yaw: -86.691162109375
+    pitch: -36.600013732910156
+cooldowns: {}
+experience:
+  Warrior: 1812.4330000000004
+  Citizen: 0.0
+  Cleric: 0.0
+binds:
+  MAGMA_CREAM: Recall
+  IRON_SWORD: Root
+  IRON_PICKAXE: Mark

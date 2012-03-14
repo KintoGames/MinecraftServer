@@ -1,0 +1,11 @@
+class: Citizen
+verbose: true
+suppressed: []
+mana: 1
+health: 20
+skill-settings: {}
+cooldowns:
+  reborn: 1.331425265148E12
+experience:
+  Citizen: 282.7
+binds: {}

@@ -1,0 +1,24 @@
+name: Miner
+default: false
+wildcard-permission: true
+primary: false
+secondary: true
+description: Mines quicker and yeilds great rewards
+permitted-armor:
+permitted-weapon:
+permitted-skills:
+ Excavate:
+        level: 1
+ Mining:
+        level: 1
+ Repair:
+        level: 1
+
+experience-sources:
+- MINING
+permission-skills:
+evel: 0.1
+expmodifier: 1.0
+expLoss: 0
+tier: 1
+recipes: [ default ]
