@@ -1,0 +1,58 @@
+name: DarkKnight
+default: false
+parents:
+    strong: []
+    weak: [Rogue, Monk]
+primary: false
+secondary: true
+description: Stealing and killing from the shadows.
+max-level: 30
+permitted-armor: 
+permitted-weapon:
+item-damage:
+  IRON_SWORD: 7
+  GOLD_SWORD: 9
+  DIAMOND_SWORD: 10
+item-damage-level:
+projectile-damage:
+  Arrow: 10
+projectile-damage-level:
+permitted-skills:
+    Sneak:
+        level: 1
+    PickPocket:
+        level: 1  
+        mana: 15
+        cooldown: 20000
+    Smoke:
+        level: 1
+        duration: 30000
+        mana: 10
+        cooldown: 20000
+    Superjump:
+       level: 10
+       mana: 5
+    One:
+        level: 15
+        speed-multiplier: 1.5
+        mana: 30
+    Backstab:
+        level: 15
+        attack-bonus: 2
+        attack-chance: .5
+        sneak-bonus: 4.0
+        sneak-chance: 1.0
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+max-health-per-level: 0.4
+max-mana-per-level: 1
+mana-regen: 1
+mana-regen-per-level: .05
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]
