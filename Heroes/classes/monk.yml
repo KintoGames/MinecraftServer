@@ -8,6 +8,7 @@ parents:
 primary: true
 secondary: false
 description: Unarmed fighter who uses no armor.
+max-level: 30
 permitted-armor:
 permitted-weapon:
 - WOOD
