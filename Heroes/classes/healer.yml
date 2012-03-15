@@ -15,8 +15,9 @@ permitted-weapon:
 - STONE
 - IRON_PICKAXE
 item-damage:
-  STONE_PICKAXE: 2
-  IRON_PICKAXE: 4
+  WOOD_PICKAXE: 3
+  STONE_PICKAXE: 4
+  IRON_PICKAXE: 5
   GOLD_PICKAXE: 6
 
 item-damage-level:
@@ -55,7 +56,7 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 30.0
+base-max-health: 40.0
 max-health-per-level: 0.5
 base-max-mana: 30
 max-mana-per-level: .75

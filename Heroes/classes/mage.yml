@@ -26,7 +26,7 @@ permitted-skills:
         level: 1
     Icebolt:
         level: 1
-        damage: 6
+        damage: 10
         cooldown: 2000
         slow-duration: 2000
         mana: 2

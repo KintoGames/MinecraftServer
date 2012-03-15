@@ -20,10 +20,10 @@ permitted-weapon:
 - GOLD_AXE
 
 item-damage:
-  WOOD_AXE: 2
-  STONE_AXE: 4
-  AIR: 5
-  IRON_AXE: 6
+  WOOD_AXE: 4
+  STONE_AXE: 5
+  AIR: 6
+  IRON_AXE: 7
   GOLD_AXE: 8
 
 item-damage-level:

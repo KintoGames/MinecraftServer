@@ -17,11 +17,11 @@ permitted-weapon:
 - GOLD_SWORD
 - BOW
 item-damage:
-  STONE_SWORD: 1
-  STONE_SWORD: 3
-  AIR: 4
-  IRON_SWORD: 5
-  GOLD_SWORD: 7
+  WOOD_SWORD: 5
+  STONE_SWORD: 6
+  AIR: 7
+  IRON_SWORD: 8
+  GOLD_SWORD: 9
 item-damage-level:
 projectile-damage:
   Arrow: 9
@@ -53,7 +53,7 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 40
+base-max-health: 30
 max-health-per-level: 0.75
 base-max-mana: 20
 max-mana-per-level: .5
