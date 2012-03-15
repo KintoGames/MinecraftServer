@@ -9,7 +9,6 @@ permitted-weapon:
 - SHEARS
 - STONE
 permitted-skills:
-ALL: false
 experience-sources:
 - KILLING
 - CRAFTING
