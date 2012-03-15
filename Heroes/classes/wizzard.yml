@@ -41,11 +41,11 @@ permitted-skills:
         health-cost: 10
         delay: 5000
     Web:
-        level: 5
+        level: 1
         mana: 10
         duration: 5000
     Wisdom:
-        level: 15
+        level: 1
         radius: 1
         regen-multiplier: 2.0
         duration: 600000
