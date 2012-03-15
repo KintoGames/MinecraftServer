@@ -3,8 +3,8 @@ default: false
 parents:
     strong: []
     weak: [Mage]
-primary: false
-secondary: true
+primary: true
+secondary: false
 description: A powerfull magic user
 max-level: 30
 permitted-armor:
