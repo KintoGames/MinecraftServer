@@ -1,3 +1,4 @@
+
 name: Wizzard
 default: false
 parents:
@@ -22,11 +23,9 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Port:
-        level: 1
     Icebolt:
         level: 1
-        damage: 10
+        damage: 15
         cooldown: 2500
         slow-duration: 2000
         mana: 5
@@ -52,14 +51,28 @@ permitted-skills:
         duration: 600000
         mana: 10
         cooldown: 301000
+    Fireball:
+        level: 1
+        damage: 25
+        cooldown: 4000
+        damage-per-level: 1
+        velocity-multiplier: 1.5
+        fire-ticks: 100
+        mana: 15
+    Blink:
+        max-distance: 6
+        level: 15
+        mana: 10
+        cooldown: 6000        
+
 experience-sources:
 - KILLING
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-health: 20.0
+base-max-health: 25.0
 max-health-per-level: 0.25
-base-max-mana: 40
+base-max-mana: 50
 max-mana-per-level: 1
 mana-regen: 4
 mana-regen-per-level: .1
@@ -67,4 +80,3 @@ expLoss: 0.007
 wildcard-permission: true
 tier: 2
 recipes: [ default ]
-
