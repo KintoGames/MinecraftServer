@@ -17,16 +17,22 @@ permitted-weapon:
 - GOLD_SWORD
 - BOW
 item-damage:
-  WOOD_SWORD: 5
-  STONE_SWORD: 6
-  AIR: 7
-  IRON_SWORD: 8
-  GOLD_SWORD: 9
+  WOOD_SWORD: 3
+  STONE_SWORD: 4
+  AIR: 5
+  IRON_SWORD: 6
+  GOLD_SWORD: 7
 item-damage-level:
 projectile-damage:
   Arrow: 9
 projectile-damage-level:
 permitted-skills:
+    Critical:
+        level: 1
+        chance: 0.2
+    Dodge:
+        level: 1
+        chance: 0.2
     Smoke:
         level: 1
         duration: 30000
@@ -47,8 +53,7 @@ permitted-skills:
         level: 5
         mana: 5
         cooldown: 20000
-        speed-multiplier: 1.5
-        
+        speed-multiplier: 1.5        
 experience-sources:
 - KILLING
 - PVP

@@ -30,8 +30,13 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+    Basher:
+        level: 1
+        chance: 0.2
+        cooldown: 0
+        duration: 2000
     Shield:
-        level:1
+        level: 1
     Mark:
         level: 1
         mana: 5
@@ -46,8 +51,7 @@ permitted-skills:
     Might:
         level: 5
         damage-bonus: 1.3
-        mana: 5
- 
+        mana: 5 
 experience-sources:
 - KILLING
 - PVP
