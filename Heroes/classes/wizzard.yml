@@ -1,0 +1,70 @@
+name: Wizzard
+default: false
+parents:
+    strong: []
+    weak: [Mage]
+primary: false
+secondary: true
+description: A powerfull magic user
+max-level: 30
+permitted-armor:
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE_PICKAXE
+- STONE_AXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_PICKAXE
+item-damage:
+  WOOD_SWORD: 1  
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    Port:
+        level: 1
+    Icebolt:
+        level: 1
+        damage: 10
+        cooldown: 2500
+        slow-duration: 2000
+        mana: 5
+    Mark:
+        level: 1
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 1
+        mana: 10
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    Web:
+        level: 5
+        mana: 10
+        duration: 5000
+    Wisdom:
+        level: 15
+        radius: 1
+        regen-multiplier: 2.0
+        duration: 600000
+        mana: 10
+        cooldown: 301000
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+expmodifier: 1.0
+base-max-health: 20.0
+max-health-per-level: 0.25
+base-max-mana: 40
+max-mana-per-level: 1
+mana-regen: 4
+mana-regen-per-level: .1
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]
+
