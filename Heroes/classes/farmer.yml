@@ -1,8 +1,8 @@
-name: Citizen
+name: Farmer
 default: true
 primary: true
 secondary: false
-description: The Default Starter Path
+description: Farming and a simple life adventureing is not for you
 permitted-armor:
 permitted-weapon:
 - FISHING_ROD

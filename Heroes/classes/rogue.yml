@@ -5,7 +5,8 @@ parents:
     weak: []
 primary: true
 secondary: false
-description: The trickster of the wilds.
+description: Attack from the shadows
+max-level: 10
 permitted-armor: 
 - LEATHER
 permitted-weapon:
@@ -14,70 +15,49 @@ permitted-weapon:
 - IRON_PICKAXE
 - IRON_SWORD
 - GOLD_SWORD
-- DIAMOND_SWORD
 - BOW
 item-damage:
-  IRON_SWORD: 6
+  STONE_SWORD: 1
+  STONE_SWORD: 3
+  AIR: 4
+  IRON_SWORD: 5
   GOLD_SWORD: 7
-  DIAMOND_SWORD: 8
 item-damage-level:
 projectile-damage:
   Arrow: 9
 projectile-damage-level:
 permitted-skills:
-    Backstab:
+    Smoke:
         level: 1
-        attack-bonus: 1.5
-        attack-chance: 0.5
-        sneak-bonus: 2.0
-        sneak-chance: 1.0
-    Port:
-        level: 1
-    Sneak:
-        level: 1  
+        duration: 30000
+        mana: 5
+        cooldown: 20000
     Mark:
-        level: 5
+        level: 1
         mana: 5
         reagent: BED
         reagent-cost: 1
     Recall:
-        level: 5
+        level: 1
         mana: 40
         cooldown: 60000
         health-cost: 10
         delay: 5000
-    AssassinsBlade: 
-        level: 10
-        mana: 15
-    Smoke:
-        level: 15
-        duration: 30000
-        mana: 10
-        cooldown: 20000
-    Jump:
-       level: 20
-       mana: 5
-    EscapeArtist:
-        level: 25
-        mana: 30   
-    Curse:
-        level: 30
-        max-distance: 15
-        duration: 15000
-        miss-chance: 0.5
-        cooldown: 25000
-        mana: 10
+    One:
+        level: 5
+        speed-multiplier: 1.5
+        mana: 5
 experience-sources:
 - KILLING
 - PVP
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 28.0
-max-health-per-level: 0.4
-base-max-mana: 50
-max-mana-per-level: 1
-mana-regen: 1
+base-max-health: 40
+max-health-per-level: 0.75
+base-max-mana: 20
+max-mana-per-level: .5
+mana-regen: 2
 mana-regen-per-level: .05
 expLoss: 0.007
 wildcard-permission: true
