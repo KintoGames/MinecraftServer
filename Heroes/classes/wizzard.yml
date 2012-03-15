@@ -25,10 +25,8 @@ projectile-damage-level:
 permitted-skills:
     Wolf:
         level: 1
-        damage: 15
         cooldown: 2000
-        slow-duration: 2000
-        mana: 5
+        mana: 30
     Icebolt:
         level: 1
         damage: 15
