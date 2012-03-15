@@ -3,7 +3,7 @@ default: false
 parents:
     strong: []
     weak: [Mage]
-primary: true
+primary: false
 secondary: false
 description: A powerfull magic user
 max-level: 30
