@@ -51,16 +51,15 @@ permitted-skills:
         duration: 600000
         mana: 10
         cooldown: 301000
-    Fireball:
+    Bolt:
         level: 1
         damage: 25
         cooldown: 4000
         damage-per-level: 1
-        velocity-multiplier: 0
-        fire-ticks: 100
         mana: 15
+        max-distance: 15
     Blink:
-        max-distance: 6
+        max-distance: 12
         level: 15
         mana: 10
         cooldown: 6000        
