@@ -1,4 +1,4 @@
-name: Cleric
+name: Healer
 default: false
 parents:
     strong: []
