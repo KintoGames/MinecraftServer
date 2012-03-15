@@ -45,7 +45,7 @@ permitted-skills:
         cooldown: 15000
     Groupheal:
         level: 5
-        heal-amount: 10
+        heal-amount: 7
         radius: 10
         cooldown: 80000
         mana: 4

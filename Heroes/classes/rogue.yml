@@ -31,7 +31,7 @@ permitted-skills:
         level: 1
         duration: 30000
         mana: 5
-        cooldown: 20000
+        cooldown: 30000
     Mark:
         level: 1
         mana: 5
@@ -45,8 +45,10 @@ permitted-skills:
         delay: 5000
     One:
         level: 5
-        speed-multiplier: 1.5
         mana: 5
+        cooldown: 20000
+        speed-multiplier: 1.5
+        
 experience-sources:
 - KILLING
 - PVP

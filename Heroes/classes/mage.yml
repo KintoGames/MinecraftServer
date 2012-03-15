@@ -27,9 +27,9 @@ permitted-skills:
     Icebolt:
         level: 1
         damage: 10
-        cooldown: 2000
+        cooldown: 2500
         slow-duration: 2000
-        mana: 2
+        mana: 5
     Mark:
         level: 1
         mana: 5
@@ -43,10 +43,10 @@ permitted-skills:
         delay: 5000
     Web:
         level: 5
-        mana: 5
-        duration: 10000
+        mana: 10
+        duration: 5000
     Wisdom:
-        level: 5
+        level: 15
         radius: 1
         regen-multiplier: 2.0
         duration: 600000
