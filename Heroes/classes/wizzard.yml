@@ -56,7 +56,7 @@ permitted-skills:
         damage: 25
         cooldown: 4000
         damage-per-level: 1
-        velocity-multiplier: 1.5
+        velocity-multiplier: 0
         fire-ticks: 100
         mana: 15
     Blink:
