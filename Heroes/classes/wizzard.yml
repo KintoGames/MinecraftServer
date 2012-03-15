@@ -23,10 +23,6 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Wolf:
-        level: 1
-        cooldown: 2000
-        mana: 30
     Icebolt:
         level: 1
         damage: 15
