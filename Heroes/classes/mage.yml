@@ -22,6 +22,10 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+    Telekinesis:
+        level: 1
+        mana: 10
+        max-distance: 15
     MagicArmor:
         level: 1
         amount: 0.5
@@ -42,12 +46,12 @@ permitted-skills:
         cooldown: 60000
         health-cost: 10
         delay: 5000
-    Web:
+    Root:
         level: 5
-        mana: 10
+        max-distance: 15
         duration: 5000
     Wisdom:
-        level: 15
+        level: 5
         radius: 1
         regen-multiplier: 2.0
         duration: 600000
@@ -58,7 +62,7 @@ experience-sources:
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-health: 20.0
+base-max-health: 40.0
 max-health-per-level: 0.25
 base-max-mana: 40
 max-mana-per-level: 1

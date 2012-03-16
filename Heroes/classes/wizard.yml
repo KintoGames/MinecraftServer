@@ -22,10 +22,17 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+    Telekinesis:
+        level: 1
+        mana: 10
+        max-distance: 15
+    MagicArmor:
+        level: 1
+        amount: 0.5
     Icebolt:
         level: 1
-        damage: 15
-        cooldown: 2000
+        damage: 10
+        cooldown: 2500
         slow-duration: 2000
         mana: 5
     Mark:
@@ -39,12 +46,12 @@ permitted-skills:
         cooldown: 60000
         health-cost: 10
         delay: 5000
-    Web:
-        level: 1
-        mana: 10
+    Root:
+        level: 5
+        max-distance: 15
         duration: 5000
     Wisdom:
-        level: 1
+        level: 5
         radius: 1
         regen-multiplier: 2.0
         duration: 600000
@@ -60,12 +67,12 @@ permitted-skills:
         cooldown: 10000
     IceAura:
         level: 5
-        tick-damage: 1
+        tick-damage: 2
         tick-damage-increase: 0
-        period: 5000
+        period: 1000
         radius: 10
         raidus-increase: 0
-        mana: 1
+        mana: 20
         mana-reduce: 0.0
     Blink:
         max-distance: 12
@@ -85,7 +92,7 @@ experience-sources:
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-health: 25.0
+base-max-health: 50.0
 max-health-per-level: 0.25
 base-max-mana: 50
 max-mana-per-level: 1

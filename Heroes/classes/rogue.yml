@@ -29,10 +29,12 @@ projectile-damage-level:
 permitted-skills:
     Critical:
         level: 1
-        chance: 0.2
+        chance: 0.1
+        chance-per-level: 1
     Dodge:
         level: 1
-        chance: 0.2
+        chance: 0.1
+        chance-per-level: 1
     Smoke:
         level: 1
         duration: 30000
@@ -60,7 +62,7 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 30
+base-max-health: 60
 max-health-per-level: 0.75
 base-max-mana: 20
 max-mana-per-level: .5

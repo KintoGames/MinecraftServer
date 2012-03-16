@@ -22,15 +22,15 @@ creature-health:
     # LavaSlime: 16 - not enabled cause they have variable size
     SnowMan: 4
 creature-damage:
-    Creeper: 8
-    Giant: 24
-    Zombie: 2
-    PigZombie: 5
-    Wolf: 1
-    Enderman: 4
-    Skeleton: 2
-    Spider: 1
-    CaveSpider: 1
+    Creeper: 16
+    Giant: 30
+    Zombie: 6
+    PigZombie: 12
+    Wolf: 2
+    Enderman: 10
+    Skeleton: 8
+    Spider: 2
+    CaveSpider: 2
     SnowMan: 0
 item-damage:
     Air: 2
