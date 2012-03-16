@@ -6,7 +6,7 @@ parents:
 primary: true
 secondary: false
 description: An invincible healing warrior.
-max-level: 10
+max-level: 30
 permitted-armor:
 - LEATHER
 - IRON

@@ -50,17 +50,16 @@ permitted-skills:
         duration: 600000
         mana: 10
         cooldown: 301000
-    Bolt:
+    Fireball:
         level: 1
-        damage: 25
-        cooldown: 4000
+        damage: 15
         damage-per-level: 1
+        velocity-multiplier: 1.5
+        fire-ticks: 100     
         mana: 15
-        max-distance: 15
+        cooldown: 10000
     IceAura:
-        use-text: '%hero% used %skill%!'
-        on-text: '%hero% chills the air in an %skill%!'
-        off-text: '%hero% stops his %skill%!'
+        level: 5
         tick-damage: 1
         tick-damage-increase: 0
         period: 5000
@@ -70,9 +69,16 @@ permitted-skills:
         mana-reduce: 0.0
     Blink:
         max-distance: 12
-        level: 15
+        level: 10
         mana: 10
-        cooldown: 6000        
+        cooldown: 6000  
+    Bolt:
+        level: 15
+        damage: 25
+        cooldown: 4000
+        damage-per-level: 1
+        mana: 15
+        max-distance: 15        
 
 experience-sources:
 - KILLING
