@@ -81,7 +81,7 @@ permitted-skills:
         damage: 5
         radius: 6
         cooldown: 2000
-        # mana: 10
+        mana: 5
     Invuln:
         level: 10
         mana: 15
