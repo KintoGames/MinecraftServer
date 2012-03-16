@@ -27,6 +27,12 @@ projectile-damage:
   Arrow: 9
 projectile-damage-level:
 permitted-skills:
+    Critical:
+        level: 1
+        chance: 0.2
+    Dodge:
+        level: 1
+        chance: 0.2
     Smoke:
         level: 1
         duration: 30000
