@@ -75,12 +75,13 @@ permitted-skills:
         health-increase: 0.0
         cooldown: 600000
         cooldown-reduce: 0
-    Stun:
+    HealBomb:
         level: 5
-        cooldown: 5000
-        mana: 10
-        max-distance: 15
-        damage: 15
+        health: 10
+        damage: 5
+        radius: 6
+        cooldown: 2500
+        # mana: 10
     Invuln:
         level: 10
         mana: 15
