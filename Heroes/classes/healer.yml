@@ -26,12 +26,6 @@ projectile-damage-level:
 permitted-skills:
     Shield:
         level:1
-    Smite:
-        level: 1
-        damage: 10
-        cooldown: 5000
-        mana: 10
-        damage: 10
     Mark:
         level: 1
         mana: 5

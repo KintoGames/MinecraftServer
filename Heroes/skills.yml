@@ -1,3 +1,64 @@
+Pray:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 25
+  health: 10
+Mark:
+  use-text: '%hero% used %skill%!'
+  no-combat-use: true
+Recall:
+  use-text: '%hero% used %skill%!'
+  no-combat-use: true
+Taunt:
+  use-text: '%hero% used %skill%!'
+One:
+  use-text: '%hero% used %skill%!'
+  speed-multiplier: 2
+  duration: 15000
+  apply-text: '%hero% gained a burst of speed!'
+  expire-text: '%hero% returned to normal speed!'
+Jump:
+  use-text: '%hero% used %skill%!'
+  no-air-jump: true
+Curse:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  duration: 5000
+  miss-chance: 0.5
+  miss-text: '%target% misses an attack!'
+  apply-text: '%target% has been cursed!'
+  expire-text: '%target% has recovered from the curse!'
+Fireball:
+  use-text: '%hero% used %skill%!'
+  damage: 4
+  damage-per-level: 0.0
+  velocity-multiplier: 1.5
+  fire-ticks: 100
+Enchant:
+  apply-text: ''
+  unapply-text: ''
+  PROTECTION_ENVIRONMENTAL: 200
+  PROTECTION_FIRE: 1
+  PROTECTION_FALL: 1
+  PROTECTION_EXPLOSIONS: 200
+  PROTECTION_PROJECTILE: 200
+  OXYGEN: 1
+  WATER_WORKER: 1
+  DAMAGE_ALL: 200
+  DAMAGE_UNDEAD: 200
+  DAMAGE_ARTHROPODS: 200
+  KNOCKBACK: 1
+  FIRE_ASPECT: 1
+  LOOT_BONUS_MOBS: 1
+  DIG_SPEED: 1
+  SILK_TOUCH: 200
+  DURABILITY: 1
+  LOOT_BONUS_BLOCKS: 1
+  ARROW_DAMAGE: 200
+  ARROW_KNOCKBACK: 1
+  ARROW_FIRE: 1
+  ARROW_INFINITE: 1
+Disenchant:
+  use-text: '%hero% used %skill%!'
 Excavate:
   use-text: '%hero% used %skill%!'
   speed-multiplier: 2
@@ -31,25 +92,10 @@ Repair:
   flint-steel: 1
   unchant-chance: 0.5
   unchant-chance-reduce: 0.0050
-Shield:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  iron-door: 0.75
-  wooden-door: 0.85
-  trapdoor: 0.6
-Mark:
+Port:
   use-text: '%hero% used %skill%!'
-  no-combat-use: true
-Recall:
-  use-text: '%hero% used %skill%!'
-  no-combat-use: true
-Might:
-  use-text: '%hero% used %skill%!'
-  damage-bonus: 1.25
   radius: 10
-  apply-text: Your muscles bulge with power!
-  expire-text: You feel strength leave your body!
-  duration: 600000
+  no-combat-use: true
 Icebolt:
   use-text: '%hero% used %skill%!'
   damage: 3
@@ -57,6 +103,10 @@ Icebolt:
   speed-multiplier: 2
   apply-text: '%target% has been slowed by %hero%!'
   expire-text: '%target% is no longer slowed!'
+Piggify:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  duration: 10000
 Web:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
@@ -67,513 +117,60 @@ Wisdom:
   regen-multiplier: 1.2
   radius: 10
   duration: 600000
-Enchant:
-  apply-text: ''
-  unapply-text: ''
-  PROTECTION_ENVIRONMENTAL: 200
-  PROTECTION_FIRE: 1
-  PROTECTION_FALL: 1
-  PROTECTION_EXPLOSIONS: 200
-  PROTECTION_PROJECTILE: 200
-  OXYGEN: 1
-  WATER_WORKER: 1
-  DAMAGE_ALL: 200
-  DAMAGE_UNDEAD: 200
-  DAMAGE_ARTHROPODS: 200
-  KNOCKBACK: 1
-  FIRE_ASPECT: 1
-  LOOT_BONUS_MOBS: 1
-  DIG_SPEED: 1
-  SILK_TOUCH: 200
-  DURABILITY: 1
-  LOOT_BONUS_BLOCKS: 1
-  ARROW_DAMAGE: 200
-  ARROW_KNOCKBACK: 1
-  ARROW_FIRE: 1
-  ARROW_INFINITE: 1
-Disenchant:
-  use-text: '%hero% used %skill%!'
-Woof:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
-HealBomb:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  health: 10
-  health-increase: 0
-  damage: 5
-  damage-increase: 0
-  radius: 6
-  radius-increase: 0
-  max-distance-increase: 0
-  exp-per-damaged-enemy: 0
-Multibolt:
-  use-text: '%hero% used %skill%!'
-  max-distance: 40
-  max-distance-increase: 0
-  max-strikes: 4
-  max-strikes-increase: 0
-  chance: 0.5
-  chance-per-level: 0
-  damage: 14
-  damage-increase: 0
-Harmtouch:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  damage: 10
-Cripple:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 10000
-  duration-increase: 0
-  period: 1000
-  tick-damage: 2
-  tick-damage-increase: 0
-  damage: 5
-  damage-incrase: 0
-  max-distance-increase: 0
-  apply-text: '%target% has been Crippled by %hero%!'
-  remove-text: '%target% has recovered from %hero%s Crippling blow!'
-Reagent:
-  use-text: '%hero% used %skill%!'
-Tree:
-  use-text: '%hero% used %skill%!'
-  max-distance: 100
-  max-distance-increase: 0
-Bandage:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 5
-  health: 5
-  reagent: 339
-  reagent-cost: 1
-Hunt:
-  use-text: '%hero% used %skill%!'
-  radius: 200
-  radius-decrease: 0
-  hunter-nearby-text: Someone is hunting players in your area
-Spider:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
-Slow:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  speed-multiplier: 2
-  duration: 15000
-  duration-increase: 0
-  apply-text: '%hero% has been slowed!'
-  expire-text: '%hero% returned to normal speed!'
-  damage: 0
-  damage-increase: 0
-Pounce:
-  use-text: '%hero% used %skill%!'
-  stun-duration: 5000
-  slow-duration: 0
-  root-duration: 0
-  silence-duration: 0
-  invuln-duration: 0
-  duration-increase: 0
-  damage: 0
-  damage-increase: 0
-  radius: 2
-  radius-increase: 0
-  max-distance: 15
-  max-distance-increase: 0
-Dispel:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  max-removals: 3
-SuperJump:
-  use-text: '%hero% used %skill%!'
-  duration: 5000
-  jump-force: 4.0
-Summonfood:
-  use-text: '%hero% used %skill%!'
-  food-type: BREAD
-  amount: 1
-InvertDamage:
-  use-text: '%hero% used %skill%!'
-  duration: 6000
-  duration-increase: 0
-  apply-text: '%target% is absorbing damage!'
-  expire-text: InvertDamage faded from %target%!
-Firespin:
-  use-text: '%hero% used %skill%!'
-  max-distance: 30
-  max-distance-increase: 0
-Reborn:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  health-percent-on-rebirth: 0.5
-  health-increase: 0.0
-  on-reborn-text: '%hero% is saved from death, but weakened!'
-  cooldown: 600000
-  cooldown-reduce: 0
-Megabolt:
-  use-text: '%hero% used %skill%!'
-  radius: 30
-  radius-increase: 0
-  damage: 14
-  damage-increase: 0
-  exp-per-target-struck: 0
-Smoke:
-  use-text: '%hero% used %skill%!'
-  duration: 20000
-  apply-text: '%hero% vanished in a cloud of smoke!'
-  expire-text: '%hero% reappeared!'
-GroupHeal:
-  use-text: '%hero% used %skill%!'
-  heal-amount: 2
-  radius: 5
-FullHeal:
-  use-text: '%hero% used %skill%!'
-  duration: 10000
-  duration-increase: 0
-  period: 1000
-  apply-text: '%hero% begins healing!'
-  expire-text: '%hero% is completely healed!'
-Grace:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  duration: 300000
-  enemy-disabled-damage-text: '%hero% has pvp immunity for %duration%'
-  you-disabled-damage-text: You have pvp immunity for %duration%
-  on-death-text: You have gained pvp immunity for %duration%
-Antidote:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-Superheat:
-  use-text: '%hero% used %skill%!'
-  duration: 20000
-  apply-text: '%hero%''s pick has become superheated!'
-  expire-text: '%hero%''s pick has cooled down!'
-SummonCow:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  max-distance: 20
-  chance-2x-per-level: 0.0
-  chance-3x-per-level: 0.0
-Port:
-  use-text: '%hero% used %skill%!'
-  radius: 10
-  no-combat-use: true
-Chaser:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 10000
-  duration-increase: 0
-  period: 1000
-  tick-damage: 2
-  tick-damage-increase: 0
-  damage: 5
-  damage-increase: 0
-  max-distance-increase: 0
-  apply-text: '%hero% makes the ground under %target%s feet hot!'
-  remove-text: '%hero% stops burning %target%s feet!'
-Launch:
-  use-text: '%hero% used %skill%!'
-  stun-duration: 5000
-  slow-duration: 0
-  root-duration: 0
-  silence-duration: 0
-  invuln-duration: 0
-  duration-increase: 0
-  damage: 0
-  damage-increase: 0
-  radius: 2
-  radius-increase: 0
-  max-distance: 15
-  max-distance-increase: 0
-  damage-per-block-traveled: 0.1
-  mana-per-block-traveled: 0.5
-Pandemic:
-  use-text: '%hero% used %skill%!'
-  radius: 10
-  radius-increase: 0
-  damage: 16
-  damage-increase: 0
-  period: 2000
-  duration: 20000
-  duration-increase: 0
-  apply-text: '%target% has caught %hero%s %skill%!'
-  expire-text: '%target% has recovered from %hero%s %skill%!'
-Escape:
-  use-text: '%hero% used %skill%!'
-  duration: 1000
-  duration-increase: 0
-  max-distance: 6
-  max-distance-increase: 0
-Critical:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance: 0.2
-  chance-per-level: 0
-  damage-multiplier: 2.0
-  damage-multiplier-increase: 0
-Dampen:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  block-if-mana-below: 15
-  block-increase: 0
-  mana-required: 20
-  mana-required-decrease: 0
-  block-text: '%name%s dampening field stopped %target%s attack!'
-Zombie:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
-DeathFromAbove:
-  use-text: '%hero% used %skill%!'
-  duration: 10000
-  duration-increase: 0
-  radius: 5
-  radius-increase: 0
-  damage-multiplier: 1.0
-  damage-multi-increase: 0
-  safefall: 'true'
-  exp-per-player-hit: 0
-  exp-per-creature-hit: 0
-  apply-text: '%hero% is ready to pounce!'
-  remove-text: '%hero% is not ready to pounce anymore!'
-SummonPig:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  max-distance: 20
-  chance-2x-per-level: 0.0
-  chance-3x-per-level: 0.0
-Layhands:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-Alchemy:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  level: 1
-Unheal:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  max-distance-increase: 0
-  duration: 10000
-  duration-reduce: 0
-  miss-text: '%target%s heal was inverted!'
-  apply-text: '%target% has been cursed!'
-  expire-text: '%target% has recovered from the curse!'
-Invuln:
-  use-text: '%hero% used %skill%!'
-  duration: 10000
-  apply-text: '%hero% has become invulnerable!'
-  expire-text: '%hero% is once again vulnerable!'
-Basher:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance: 0.2
-  chance-per-level: 0.0
-  cooldown: 500
-  duration: 2000
-  duration-increase: 0
-  exp-per-stun: 0
-Void:
-  use-text: '%hero% used %skill%!'
-  duration: 5000
-  duration-increase: 0
-  apply-text: '%hero% became intangible!'
-  expire-text: '%hero% became tangible again!'
-Smite:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  damage: 10
-PoisonArrow:
-  use-text: '%hero% imbues their arrows with poison!'
-  duration: 10000
-  period: 2000
-  mana-per-shot: 1
-  tick-damage: 2
-  apply-text: '%target% is poisoned!'
-  expire-text: '%target% has recovered from the poison!'
-Tackle:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  radius: 3
-  radius-increase: 0.0
-  duration: 3000
-  duration-increase: 0
-  damage: 6
-  damage-increase: 0.0
-Jail:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 25
-  jail-text: '%target% was jailed!'
-  default: world:0:65:0
-  max-distance-increase: 0
-  duration: 60000
-  duration-increase: 0
-Glassshield:
-  use-text: '%hero% used %skill%!'
-  min_duration: 20000
-  max_duration: 40000
-  duration-increase: 0
-  apply-text: '%hero% uses the air to create a %skill%!'
-  expire-text: '%hero%s %skill% fades as the wind dies down!'
-Spines:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance: 0.1
-  chance-per-level: 0
-  cooldown: 500
-  cooldown-reduce: 0
-BurningPresence:
-  use-text: '%hero% used %skill%!'
-  on-text: '%hero% heats the air in an %skill%!'
-  off-text: '%hero% stops his %skill%!'
-  tick-damage: 1
-  tick-damage-increase: 0
-  period: 5000
-  radius: 10
-  raidus-increase: 0
-  mana: 1
-  mana-reduce: 0.0
-Stun:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 5000
-  duration-increase: 0
-  damage: 6
-  damage-increase: 0
-Unmark:
-  use-text: '%hero% used %skill%!'
-  radius: 30
-  radius-increase: 0
-MortalWound:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 10000
-  duration-increase: 0
-  miss-text: '%target%s heal was blocked!'
-  apply-text: '%target% has been cursed!'
-  expire-text: '%target% has recovered from the curse!'
-  damage: 7
-Tether:
-  use-text: '%hero% used %skill%!'
-  duration: 10000
-  duration-increase: 0
-  exp-per-creature-tethered: 0
-  exp-per-player-tethered: 0
-  apply-text: '%target% was tethered!'
-  expire-text: '%target% got away!'
-Curse:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 5000
-  miss-chance: 0.5
-  miss-text: '%target% misses an attack!'
-  apply-text: '%target% has been cursed!'
-  expire-text: '%target% has recovered from the curse!'
-Fishing:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance-per-level: 0.0010
-  leather-level: 5
-  enable-leather: false
-Taunt:
-  use-text: '%hero% used %skill%!'
 Telekinesis:
   use-text: '%hero% used %skill%!'
   max-distance: 15
-Herbalism:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance-per-level: 0.0010
-Bolt:
+Blink:
+  use-text: '%hero% used %skill%!'
+  max-distance: 6
+  restrict-ender-pearl: true
+  restrict-ender-perls: true
+Poison:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
-  damage: 4
+  duration: 10000
+  period: 2000
+  tick-damage: 1
+  expire-text: '%target% has recovered from the poison!'
+Shield:
+  apply-text: '%hero% gained %skill%!'
+  unapply-text: '%hero% lost %skill%!'
+  iron-door: 0.75
+  wooden-door: 0.85
+  trapdoor: 0.6
+Bleed:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  duration: 10000
+  period: 2000
+  tick-damage: 1
+  apply-text: '%target% is bleeding!'
+  expire-text: '%target% has stopped bleeding!'
+Might:
+  use-text: '%hero% used %skill%!'
+  damage-bonus: 1.25
+  radius: 10
+  apply-text: Your muscles bulge with power!
+  expire-text: You feel strength leave your body!
+  duration: 600000
 Root:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
   duration: 5000
-Arrowblast:
-  use-text: '%hero% used %skill%!'
-  max_arrows: 30
-  min_arrows: 15
-  min_rate: 2
-  max_rate: 20
-  arrows-per-level: 0.0
-Empathy:
+Charge:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
-  max-damage: 0
-  max-damage-increase: 0.0
-  damage-modifier: 1
-  damage-modifier-increase: 0
+  stun-duration: 5000
   slow-duration: 0
-  slow-duration-increase: 0
-PickPocket:
-  use-text: ''
-  max-distance: 15
-  base-chance: 0.1
-  chance-per-level: 0.0030
-  failure-message: '%hero% failed to steal from %target%!'
-  noisy-success-message: '%hero% stole %target%s %item%!'
-  disallowed-items:
-  - ''
-  always-steal-all: true
-  max-stolen: 64
-GuardianAngel:
-  use-text: '%hero% used %skill%!'
-  radius: 10
-  radius-increase: 0
-  duration: 12000
-  duration-increase: 0
-IceAura:
-  use-text: '%hero% used %skill%!'
-  on-text: '%hero% chills the air in an %skill%!'
-  off-text: '%hero% stops his %skill%!'
-  tick-damage: 1
-  tick-damage-increase: 0
-  period: 5000
-  radius: 10
-  raidus-increase: 0
-  mana: 1
-  mana-reduce: 0.0
-SummonSheep:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  max-distance: 20
-  chance-2x-per-level: 0.0
-  chance-3x-per-level: 0.0
-MagicArmor:
+  root-duration: 0
+  silence-duration: 0
+  damage: 0
+  radius: 2
+Alchemy:
   apply-text: '%hero% gained %skill%!'
   unapply-text: '%hero% lost %skill%!'
-  amount: 0.25
-  amount-increase: 0.0
-Equalize:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-Pray:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 25
-  health: 10
-Timebomb:
-  use-text: '%hero% used %skill%!'
-  max-distance: 40
-  max-distance-increase: 0
-  max-tnt: 4
-Light:
-  use-text: '%hero% used %skill%!'
-  duration: 30000
-  period: 200
-  apply-text: '%hero% is lighting the way.'
-  expire-text: '%hero% is no longer lighting the way'
-Woodcutting:
+  level: 1
+Herbalism:
   apply-text: '%hero% gained %skill%!'
   unapply-text: '%hero% lost %skill%!'
   chance-per-level: 0.0010
@@ -591,67 +188,140 @@ Backstab:
   sneak-bonus: 2.0
   sneak-chance: 1.0
   use-text: '%hero% backstabbed %target%!'
+Sneak:
+  use-text: '%hero% used %skill%!'
+  duration: 600000
+  damage-cancels: true
+  attacking-cancels: true
+  refresh-interval: 5000
+AssassinsBlade:
+  use-text: '%hero% used %skill%!'
+  weapons:
+  - WOOD_SWORD
+  - STONE_SWORD
+  - IRON_SWORD
+  - GOLD_SWORD
+  - DIAMOND_SWORD
+  buff-duration: 600000
+  poison-duration: 10000
+  period: 2000
+  tick-damage: 2
+  attacks: 1
+  apply-text: '%target% is poisoned!'
+  expire-text: '%target% has recovered from the poison!'
+Smoke:
+  use-text: '%hero% used %skill%!'
+  duration: 20000
+  apply-text: '%hero% vanished in a cloud of smoke!'
+  expire-text: '%hero% reappeared!'
+EscapeArtist:
+  use-text: '%hero% used %skill%!'
+Harmtouch:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  damage: 10
+Slow:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  speed-multiplier: 2
+  duration: 15000
+  apply-text: '%target% has been slowed by %hero%!'
+  expire-text: '%target% is no longer slowed!'
+GroupHeal:
+  use-text: '%hero% used %skill%!'
+  heal-amount: 2
+  radius: 5
+Invuln:
+  use-text: '%hero% used %skill%!'
+  duration: 10000
+  apply-text: '%hero% has become invulnerable!'
+  expire-text: '%hero% is once again vulnerable!'
+Wolf:
+  apply-text: '%hero% gained %skill%!'
+  unapply-text: '%hero% lost %skill%!'
+Bolt:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  damage: 4
+PickPocket:
+  use-text: ''
+  max-distance: 15
+  base-chance: 0.1
+  chance-per-level: 0.0030
+  failure-message: '%hero% failed to steal from %target%!'
+  noisy-success-message: '%hero% stole %target%s %item%!'
+  disallowed-items:
+  - ''
+  always-steal-all: true
+  max-stolen: 64
+GuardianAngel:
+  use-text: '%hero% used %skill%!'
+  radius: 10
+  radius-increase: 0.0
+  duration: 12000
+  damage-per-level: 0.0
+SummonSheep:
+  use-text: '%hero% used %skill%!'
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Bandage:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 5
+  health: 5
+  reagent: 339
+  reagent-cost: 1
+Light:
+  use-text: '%hero% used %skill%!'
+  duration: 30000
+  period: 200
+  apply-text: '%hero% is lighting the way.'
+  expire-text: '%hero% is no longer lighting the way'
+Woodcutting:
+  apply-text: '%hero% gained %skill%!'
+  unapply-text: '%hero% lost %skill%!'
+  chance-per-level: 0.0010
+Dispel:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+  max-removals: 3
 Inversion:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
   max-damage: 0
   damage-modifier: 1
   damage-modifier-increase: 0
-Poison:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 10000
-  period: 2000
-  tick-damage: 1
-  expire-text: '%target% has recovered from the poison!'
-Icebrand:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance: 0.2
-  chance-per-level: 0.0
-  cooldown: 500
-  duration: 2000
-  duration-increase: 0
-  exp-per-slow: 0
+SuperJump:
+  use-text: '%hero% used %skill%!'
+  duration: 5000
+  jump-force: 4.0
+Summonfood:
+  use-text: '%hero% used %skill%!'
+  food-type: BREAD
+  amount: 1
 Gills:
   use-text: '%hero% used %skill%!'
   duration: 30000
   apply-text: '%hero% has grown a set of gills!'
   expire-text: '%hero% lost his gills!'
-Arrowstorm:
-  use-text: '%hero% used %skill%!'
-  max_arrows: 30
-  min_arrows: 15
-  min_rate: 2
-  max_rate: 20
-  arrows-per-level: 0.0
-  cooldown: 1000
-  mana: 10
-Mooshroom:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
-Drain:
+Reborn:
   apply-text: '%hero% gained %skill%!'
   unapply-text: '%hero% lost %skill%!'
-  mana-drain-per-attack: 4
-  drain-increase: 0
-  cooldown: 500
-  cooldown-decrease: 0
-  exp-per-drain: 0
-Lifesteal:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  health-per-attack: 1
-  health-increase: 0
-  cooldown: 500
+  health-percent-on-rebirth: 0.5
+  health-increase: 0.0
+  on-reborn-text: '%hero% is saved from death, but weakened!'
+  cooldown: 600000
   cooldown-reduce: 0
-  exp-per-heal: 0
-Jump:
+Antidote:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
+Superheat:
   use-text: '%hero% used %skill%!'
-  no-air-jump: true
+  duration: 20000
+  apply-text: '%hero%''s pick has become superheated!'
+  expire-text: '%hero%''s pick has cooled down!'
 IceArrow:
   use-text: '%hero% imbues their arrows with ice!'
   duration: 5000
@@ -659,70 +329,21 @@ IceArrow:
   mana-per-shot: 1
   apply-text: '%target% is slowed by ice!'
   expire-text: '%hero%''s arrows are no longer imbued with ice!'
-One:
+SummonCow:
   use-text: '%hero% used %skill%!'
-  speed-multiplier: 2
-  duration: 15000
-  apply-text: '%hero% gained a burst of speed!'
-  expire-text: '%hero% returned to normal speed!'
-Vitalize:
-  use-text: '%hero% used %skill%!'
-  mana-tick: 4
-  mana-tick-increase: 0
-  radius: 10
-  radius-increase: 0
-  duration: 12000
-  duration-increase: 0
-  tick-health: 2
-  health-tick-increase: 0
-  period: 3000
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
 SonicBoom:
   use-text: '%hero% used %skill%!'
   duration: 10000
-  duration-increase: 0
+  duration-per-level: 0
   radius: 10
   radius-increase: 0
   damage: 0
-  damage-increase: 0
-Consume:
-  use-text: '%hero% used %skill%!'
-  mana-given: 10
-  mana-given-increase: 0
-Wrestle:
-  use-text: '%hero% used %skill%!'
-  duration: 10000
-  duration-increase: 0
-  radius: 3
-  radius-increase: 0
-  damage: 0
-  damage-increase: 0
-VoidBlade:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance: 0.2
-  chance-per-level: 0.0
-  cooldown: 500
-  duration: 2000
-  duration-increase: 0
-  exp-per-silence: 0
-Blaaze:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
-SummonItem:
-  use-text: '%hero% used %skill%!'
-  item-id: 17
-  damage-value: 2
-  amount: 1
-  amount-increase: 0
-Skele:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
+  damage-per-level: 0
 Potion:
   allow:
     poison: false
@@ -789,18 +410,19 @@ Potion:
   apply-text: '%hero% gained %skill%!'
   unapply-text: '%hero% lost %skill%!'
   level: 1
-CaveSpider:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
 SummonArrow:
   use-text: '%hero% used %skill%!'
   amount: 2
-Mercy:
+SummonPig:
   use-text: '%hero% used %skill%!'
-  lvl-multiplier-range: 2
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Layhands:
+  use-text: '%hero% used %skill% on %target%!'
+  max-distance: 15
 Despair:
   use-text: '%hero% used %skill%!'
   radius: 10
@@ -812,13 +434,6 @@ Despair:
   exp-per-blinded-player: 0
   apply-text: '%hero% has blinded %target% with %skill%!'
   expire-text: '%hero% has recovered their sight!'
-ManaPotion:
-  use-text: '%hero% used %skill%!'
-  mana-given: 10
-  mana-given-increase: 0
-Detect:
-  use-text: '%hero% used %skill%!'
-  block-id: 56
 Safefall:
   use-text: '%hero% used %skill%!'
   duration: 20000
@@ -826,56 +441,24 @@ FireArrow:
   use-text: '%hero% used %skill%!'
   mana-per-shot: 1
   fire-ticks: 100
-Firewall:
-  use-text: '%hero% used %skill%!'
-  max-distance: 25
-  max-distance-increase: 0
-  max-duration: 10000
-  min-duration: 5000
-  max-length: 9
 SummonMooshroomCow:
   use-text: '%hero% used %skill%!'
   chance-2x: 0.2
   chance-3x: 0.1
   chance-2x-per-level: 0.0
   chance-3x-per-level: 0.0
-EscapeArtist:
-  use-text: '%hero% used %skill%!'
-Track:
-  use-text: '%hero% used %skill%!'
-  randomness: 50
-Multiply:
+Smite:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
-  max-distance-increase: 0.0
-RegenMana:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  regen-amount: 1.0
-  regen-increase: 0.0
-Dodge:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-  chance: 0.1
-  chance-per-level: 0
-Creeper:
-  use-text: '%hero% used %skill%!'
-  chance-2x: 0.2
-  chance-3x: 0.1
-  added-chance-2x-per-level: 0.0
-  added-chance-3x-per-level: 0.0
-CreepingPain:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
+  damage: 10
+PoisonArrow:
+  use-text: '%hero% imbues their arrows with poison!'
   duration: 10000
-  duration-increase: 0
-  no_effect_expire_text: '%target%s urge to throw up passes!'
-  apply-text: '%target% feels a sudden urge to throw up!'
-  expire-text: '%target% falls to his knees and pukes blood!'
-Piggify:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 10000
+  period: 2000
+  mana-per-shot: 1
+  tick-damage: 2
+  apply-text: '%target% is poisoned!'
+  expire-text: '%target% has recovered from the poison!'
 SummonChicken:
   use-text: '%hero% used %skill%!'
   chance-2x: 0.2
@@ -883,53 +466,6 @@ SummonChicken:
   max-distance: 20
   chance-2x-per-level: 0.0
   chance-3x-per-level: 0.0
-Charge:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  stun-duration: 5000
-  slow-duration: 0
-  root-duration: 0
-  silence-duration: 0
-  damage: 0
-  radius: 2
-Blink:
-  use-text: '%hero% used %skill%!'
-  max-distance: 6
-  restrict-ender-pearl: true
-AssassinsBlade:
-  use-text: '%hero% used %skill%!'
-  weapons:
-  - WOOD_SWORD
-  - STONE_SWORD
-  - IRON_SWORD
-  - GOLD_SWORD
-  - DIAMOND_SWORD
-  buff-duration: 600000
-  poison-duration: 10000
-  period: 2000
-  tick-damage: 2
-  attacks: 1
-  apply-text: '%target% is poisoned!'
-  expire-text: '%target% has recovered from the poison!'
-Wolf:
-  apply-text: '%hero% gained %skill%!'
-  unapply-text: '%hero% lost %skill%!'
-FalconPunch:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 4
-  duration: 5000
-  duration-increase: 0
-  damage: 22
-  damage-increase: 0
-  max-distance-increase: 0
-Bleed:
-  use-text: '%hero% used %skill% on %target%!'
-  max-distance: 15
-  duration: 10000
-  period: 2000
-  tick-damage: 1
-  apply-text: '%target% is bleeding!'
-  expire-text: '%target% has stopped bleeding!'
 Confuse:
   use-text: '%hero% used %skill% on %target%!'
   max-distance: 15
@@ -938,15 +474,37 @@ Confuse:
   max-drift: 0.35
   apply-text: '%target% is confused!'
   expire-text: '%target% has regained his wit!'
-Sneak:
+Fishing:
+  apply-text: '%hero% gained %skill%!'
+  unapply-text: '%hero% lost %skill%!'
+  chance-per-level: 0.0010
+  leather-level: 5
+  enable-leather: false
+Sheep:
   use-text: '%hero% used %skill%!'
-  duration: 600000
-  damage-cancels: true
-  attacking-cancels: true
-  refresh-interval: 5000
-Fireball:
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Cow:
   use-text: '%hero% used %skill%!'
-  damage: 4
-  damage-per-level: 0.0
-  velocity-multiplier: 1.5
-  fire-ticks: 100
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Pig:
+  use-text: '%hero% used %skill%!'
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
+Chicken:
+  use-text: '%hero% used %skill%!'
+  chance-2x: 0.2
+  chance-3x: 0.1
+  max-distance: 20
+  chance-2x-per-level: 0.0
+  chance-3x-per-level: 0.0
