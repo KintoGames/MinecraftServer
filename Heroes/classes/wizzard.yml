@@ -1,9 +1,8 @@
-
 name: Wizzard
 default: false
 parents:
-    strong: []
-    weak: [Mage]
+    strong: [Mage]
+    weak: []
 primary: true
 secondary: false
 description: A powerfull magic user

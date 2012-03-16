@@ -22,6 +22,9 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+    MagicArmor:
+        level: 1
+        amount: 0.5
     Icebolt:
         level: 1
         damage: 10

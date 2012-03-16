@@ -1,0 +1,32 @@
+name: Farmer
+default: false
+wildcard-permission: false
+primary: false
+secondary: false
+description: You are God nor Demon
+permitted-armor:
+permitted-weapon:
+- FISHING_ROD
+- SHEARS
+- STONE
+permitted-skills:
+  ALL: true
+experience-sources:
+- KILLING
+- CRAFTING
+- MINING
+- LOGGING
+- FARMING
+- QUESTING
+- EXTERNAL
+permission-skills:
+base-max-health: 20
+max-health-per-level: 0.1
+expmodifier: 1.0
+item-damage:
+  air: 20
+projectile-damage:
+  Arrow: 3
+expLoss: 0
+tier: 0
+recipes: [ default ]
