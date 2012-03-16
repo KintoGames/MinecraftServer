@@ -1,7 +1,7 @@
 creature-health:
     Chicken: 4
     Cow: 10
-    Creeper: 30
+    Creeper: 20
     Ghast: 20
     Giant: 300
     Pig: 10
@@ -22,8 +22,8 @@ creature-health:
     # LavaSlime: 16 - not enabled cause they have variable size
     SnowMan: 4
 creature-damage:
-    Creeper: 4
-    Giant: 16
+    Creeper: 8
+    Giant: 24
     Zombie: 2
     PigZombie: 5
     Wolf: 1
