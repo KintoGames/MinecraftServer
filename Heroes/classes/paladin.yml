@@ -77,8 +77,8 @@ permitted-skills:
         cooldown-reduce: 0
     HealBomb:
         level: 5
-        health: 2
-        damage: 2
+        health: 5
+        damage: 5
         radius: 6
         cooldown: 2000
         # mana: 10
