@@ -22,6 +22,11 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+    Fireball:
+        damage: 15
+        damage-per-level: 1
+        velocity-multiplier: 1.5
+        fire-ticks: 100
     MagicArmor:
         level: 1
         amount: 0.5

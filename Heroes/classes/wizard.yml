@@ -1,4 +1,4 @@
-name: Wizzard
+name: Wizard
 default: false
 parents:
     strong: [Mage]
@@ -57,6 +57,17 @@ permitted-skills:
         damage-per-level: 1
         mana: 15
         max-distance: 15
+    IceAura:
+        use-text: '%hero% used %skill%!'
+        on-text: '%hero% chills the air in an %skill%!'
+        off-text: '%hero% stops his %skill%!'
+        tick-damage: 1
+        tick-damage-increase: 0
+        period: 5000
+        radius: 10
+        raidus-increase: 0
+        mana: 1
+        mana-reduce: 0.0
     Blink:
         max-distance: 12
         level: 15
