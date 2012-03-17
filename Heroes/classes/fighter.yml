@@ -33,7 +33,7 @@ permitted-skills:
     Basher:
         level: 1
         chance: 0.1
-		chance-per-level: .01
+        chance-per-level: .01
         cooldown: 0
         duration: 2000
     Shield:
