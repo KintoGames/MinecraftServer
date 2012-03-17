@@ -30,11 +30,11 @@ permitted-skills:
     Critical:
         level: 1
         chance: 0.1
-        chance-per-level: 1
+        chance-per-level: .01
     Dodge:
         level: 1
         chance: 0.1
-        chance-per-level: 1
+        chance-per-level: .01
     Smoke:
         level: 1
         duration: 30000
