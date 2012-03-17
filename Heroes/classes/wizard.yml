@@ -47,11 +47,12 @@ permitted-skills:
         health-cost: 10
         delay: 5000
     Root:
-        level: 5
-        max-distance: 15
-        duration: 5000
+		level: 1
+		mana: 15
+		max-distance: 15
+		duration: 5000
     Wisdom:
-        level: 5
+        level: 1
         radius: 1
         regen-multiplier: 2.0
         duration: 600000
