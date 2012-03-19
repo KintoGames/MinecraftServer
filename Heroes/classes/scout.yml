@@ -1,0 +1,99 @@
+name: Scout
+default: false
+parents:
+    strong: [Rogue]
+    weak: []
+primary: true
+secondary: false
+description: Fire endless arrows and track your enemys down.
+max-level: 10
+permitted-armor: 
+- LEATHER
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_PICKAXE
+- IRON_SWORD
+- GOLD_SWORD
+- BOW
+item-damage:
+  WOOD_SWORD: 2
+  STONE_SWORD: 3
+  AIR: 4
+  IRON_SWORD: 5
+  GOLD_SWORD: 6
+item-damage-level:
+projectile-damage:
+  Arrow: 10
+projectile-damage-level:
+permitted-skills:
+    Critical:
+        level: 1
+        chance: 0.1
+        chance-per-level: .01
+    Dodge:
+        level: 1
+        chance: 0.1
+        chance-per-level: .01
+    Smoke:
+        level: 1
+        duration: 30000
+        mana: 5
+        cooldown: 30000
+    Mark:
+        level: 1
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 1
+        mana: 40
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    One:
+        level: 1
+        mana: 5
+        cooldown: 20000
+        speed-multiplier: 1.5  
+    SummonArrow:
+        level: 1
+        cooldown: 1000
+        mana: 10
+        amount: 10         
+    IceArrow:
+        level: 1
+        cooldown: 1000
+        mana: 2    
+    FireArrow:
+        level: 5
+        cooldown: 1000
+        mana: 5    
+    PoisonArrow:
+        level: 5
+        cooldown: 1000
+        mana: 5    
+    Hunt:
+        level: 10
+        cooldown: 1000
+        mana: 10   
+    Arrowstorm:
+        level: 15
+        cooldown: 1000
+        mana: 10
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+base-max-health: 70
+max-health-per-level: 0.75
+base-max-mana: 30
+max-mana-per-level: .5
+mana-regen: 2
+mana-regen-per-level: .05
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

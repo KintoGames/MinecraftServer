@@ -13,14 +13,14 @@ permitted-armor:
 permitted-weapon:
 - WOOD
 - STONE
-- IRON_PICKAXE
-- DIAMOND_PICKAXE
+- IRON_SHOVEL
+- DIAMOND_SHOVEL
 item-damage:
-  WOOD_PICKAXE: 3
-  STONE_PICKAXE: 4
-  IRON_PICKAXE: 5
-  GOLD_PICKAXE: 6
-  DIAMOND_PICKAXE: 7
+  WOOD_SHOVEL: 2
+  STONE_SHOVEL: 3
+  IRON_SHOVEL: 4
+  GOLD_SHOVEL: 5
+  DIAMOND_SHOVEL: 6
 
 item-damage-level:
 projectile-damage:
@@ -81,7 +81,7 @@ permitted-skills:
         damage: 5
         radius: 6
         cooldown: 2000
-        mana: 5
+        mana: 10
     Invuln:
         level: 10
         mana: 15
