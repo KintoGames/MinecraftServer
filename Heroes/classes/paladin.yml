@@ -13,14 +13,14 @@ permitted-armor:
 permitted-weapon:
 - WOOD
 - STONE
-- IRON_SHOVEL
-- DIAMOND_SHOVEL
+- IRON_SPADE
+- DIAMOND_SPADE
 item-damage:
-  WOOD_SHOVEL: 2
-  STONE_SHOVEL: 3
-  IRON_SHOVEL: 4
-  GOLD_SHOVEL: 5
-  DIAMOND_SHOVEL: 6
+  WOOD_SPADE: 2
+  STONE_SPADE: 3
+  IRON_SPADE: 4
+  GOLD_SPADE: 5
+  DIAMOND_SPADE: 6
 
 item-damage-level:
 projectile-damage:

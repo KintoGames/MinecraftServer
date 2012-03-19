@@ -6,7 +6,7 @@ parents:
 primary: true
 secondary: false
 description: Fire endless arrows and track your enemys down.
-max-level: 10
+max-level: 30
 permitted-armor: 
 - LEATHER
 permitted-weapon:
