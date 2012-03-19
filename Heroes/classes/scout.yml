@@ -73,7 +73,7 @@ permitted-skills:
         level: 5
         cooldown: 1000
         mana: 5    
-    Hunt:
+    Track:
         level: 10
         cooldown: 1000
         mana: 10   
