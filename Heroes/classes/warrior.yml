@@ -19,14 +19,15 @@ permitted-weapon:
 - IRON_SWORD
 - IRON_AXE
 - GOLD_AXE
+- DIAMOND_AXE
 
 item-damage:
-  WOOD_AXE: 4
-  STONE_AXE: 5
-  AIR: 6
-  IRON_AXE: 7
-  GOLD_AXE: 8
-  GOLD_AXE: 8
+  WOOD_AXE: 1
+  STONE_AXE: 2
+  AIR: 3
+  IRON_AXE: 4
+  GOLD_AXE: 5
+  DIAMOND_AXE: 6
 
 item-damage-level:
 projectile-damage:
@@ -55,43 +56,36 @@ permitted-skills:
         level: 1
         damage-bonus: 1.3
         mana: 5 
-Tackle:
-use-text: '%hero% used %skill% on %target%!'
-max-distance: 15
-radius: 3
-radius-increase: 0.0
-duration: 3000
-duration-increase: 0
-damage: 6
-damage-increase: 0.0
-        
-MortalWound:
-use-text: '%hero% used %skill% on %target%!'
-max-distance: 15
-duration: 10000
-duration-increase: 0
-miss-text: '%target%s heal was blocked!'
-apply-text: '%target% has been cursed!'
-expire-text: '%target% has recovered from the curse!'
-damage: 7
-
-Wrestle:
-use-text: '%hero% used %skill%!'
-duration: 10000
-duration-increase: 0
-radius: 3
-radius-increase: 0
-damage: 0
-damage-increase: 0
-
-InvertDamage:
-  use-text: '%hero% used %skill%!'
-  duration: 6000
-  duration-increase: 0
-  apply-text: '%target% is absorbing damage!'
-  expire-text: InvertDamage faded from %target%!
-
-  
+        delay: 1000
+        cooldown: 10000
+    Tackle:
+        level: 1
+        mana: 5
+        cooldown: 20000
+        max-distance: 15
+        radius: 3
+        duration: 3000
+        damage: 10        
+    MortalWound:
+        level: 5
+        mana: 3
+        cooldown: 15000
+        max-distance: 15
+        duration: 10000
+        damage: 7
+        delay: 1000
+    Wrestle:
+        level: 10
+        mana: 6
+        cooldown: 20000
+        duration: 10000
+        radius: 3
+        damage: 2
+    InvertDamage:
+        level: 15
+        mana: 8
+        cooldown: 20000
+        duration: 6000 
 experience-sources:
 - KILLING
 - PVP
@@ -106,5 +100,5 @@ mana-regen: 1
 mana-regen-per-level: .025
 expLoss: 0.007
 wildcard-permission: true
-tier: 1
+tier: 2
 recipes: [ default ]
