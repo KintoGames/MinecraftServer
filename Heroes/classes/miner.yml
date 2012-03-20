@@ -6,6 +6,7 @@ secondary: true
 description: Mines quicker and yeilds great rewards
 permitted-armor:
 permitted-weapon:
+- DIAMOND_PICKAXE
 permitted-skills:
  Excavate:
         level: 1

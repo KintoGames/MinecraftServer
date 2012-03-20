@@ -1,0 +1,104 @@
+name: Mage/Warlock
+default: false
+parents:
+    strong: [Mage]
+    weak: []
+primary: true
+secondary: false
+description: A dangerous battle mage
+max-level: 30
+permitted-armor:
+- LEATHER
+
+permitted-weapon:
+- WOOD
+- STONE_PICKAXE
+- STONE_AXE
+- STONE_SPADE
+- STONE_HOE
+- IRON_PICKAXE
+- IRON_SWORD
+- GOLD_SWORD
+- DIAMOND_SWORD
+item-damage:
+  WOOD_SWORD: 5 
+  STONE_SWORD: 6 
+  IRON_SWORD: 7
+  GOLD_SWORD: 8  
+  DIAMOND_SWORD: 9
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    Telekinesis:
+        level: 1
+        mana: 10
+        max-distance: 15
+    MagicArmor:
+        level: 1
+        amount: 0.5
+    Icebolt:
+        level: 1
+        damage: 10
+        cooldown: 2500
+        slow-duration: 2000
+        mana: 5
+    Mark:
+        level: 1
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 1
+        mana: 10
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
+    Root:
+        level: 1
+        mana: 15
+        max-distance: 15
+        duration: 5000
+    Wisdom:
+        level: 1
+        radius: 1
+        regen-multiplier: 2.0
+        duration: 600000
+        mana: 10
+        cooldown: 301000
+    Sneak:
+        level: 1
+    Lifesteal:
+        level: 1
+        health-per-attack: 2
+        cooldown: 1
+    Icebrand:
+        level: 5
+        cooldown: 500
+        duration: 2000
+    Drain:
+        level: 10
+        mana-drain-per-attack: 2
+        drain-increase: 0
+        cooldown: 1
+    VoidBlade:
+        level: 15
+        chance: 0.2
+        chance-per-level: 0.0
+        cooldown: 500
+        duration: 2000
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+expmodifier: 1.0
+base-max-health: 100.0
+max-health-per-level: 0.25
+base-max-mana: 50
+max-mana-per-level: 1
+mana-regen: 4
+mana-regen-per-level: .1
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]
