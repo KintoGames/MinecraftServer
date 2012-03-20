@@ -25,7 +25,7 @@ creature-damage:
     Creeper: 16
     Giant: 30
     Zombie: 6
-    PigZombie: 12
+    PigZombie: 20
     Wolf: 2
     Enderman: 10
     Skeleton: 8

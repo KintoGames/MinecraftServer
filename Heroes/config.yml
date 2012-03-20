@@ -48,7 +48,7 @@ mana:
   percent: 5
 bonus:
   expiration: 0
-  exp: 2.0
+  exp: 1.0
   message: Bonus experience time is enabled!
 hats:
   level: 1
