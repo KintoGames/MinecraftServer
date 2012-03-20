@@ -1,5 +1,5 @@
 creature-health:
-    Chicken:8
+    Chicken: 8
     Cow: 16
     Creeper: 32
     Ghast: 64
