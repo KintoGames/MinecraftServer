@@ -16,6 +16,7 @@ permitted-weapon:
 - STONE
 - IRON_PICKAXE
 - IRON_AXE
+- IRON_SWORD
 - GOLD_AXE
 
 item-damage:
@@ -23,6 +24,7 @@ item-damage:
   STONE_AXE: 2
   AIR: 3
   IRON_AXE: 4
+  IRON_SWORD: 3
   GOLD_AXE: 5
 
 item-damage-level:
