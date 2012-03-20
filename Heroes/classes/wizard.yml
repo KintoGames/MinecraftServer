@@ -47,10 +47,10 @@ permitted-skills:
         health-cost: 10
         delay: 5000
     Root:
-		level: 1
-		mana: 15
-		max-distance: 15
-		duration: 5000
+        level: 1
+        mana: 15
+        max-distance: 15
+        duration: 5000
     Wisdom:
         level: 1
         radius: 1
