@@ -9,6 +9,8 @@ description: A dangerous battle mage
 max-level: 30
 permitted-armor:
 - LEATHER
+- IRON
+- CHAIN
 
 permitted-weapon:
 - WOOD
