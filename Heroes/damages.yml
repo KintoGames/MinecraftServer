@@ -1,36 +1,36 @@
 creature-health:
-    Chicken: 4
-    Cow: 10
-    Creeper: 20
-    Ghast: 20
-    Giant: 300
-    Pig: 10
-    PigZombie: 60
-    Sheep: 8
-    Skeleton: 20
+    Chicken:8
+    Cow: 16
+    Creeper: 32
+    Ghast: 64
+    Giant: 512
+    Pig: 16
+    PigZombie: 128
+    Sheep: 16
+    Skeleton: 32
     # Slime: 16 - not enabled due to variable size
-    Spider: 40
-    Squid: 20
-    Zombie: 40
-    Wolf: 16
-    CaveSpider: 40
-    Enderman: 60
+    Spider: 32
+    Squid: 32
+    Zombie: 64
+    Wolf: 32
+    CaveSpider: 64
+    Enderman: 128
     Silverfish: 16
-    Villager: 20
-    Blaze: 60
-    MushroomCow: 10
+    Villager: 32
+    Blaze: 128
+    MushroomCow: 16
     # LavaSlime: 16 - not enabled cause they have variable size
-    SnowMan: 4
+    SnowMan: 16
 creature-damage:
-    Creeper: 16
-    Giant: 30
-    Zombie: 6
-    PigZombie: 20
-    Wolf: 2
-    Enderman: 10
-    Skeleton: 8
-    Spider: 2
-    CaveSpider: 2
+    Creeper: 64
+    Giant: 64
+    Zombie: 32
+    PigZombie: 64
+    Wolf: 16
+    Enderman: 64
+    Skeleton: 32
+    Spider: 16
+    CaveSpider: 16
     SnowMan: 0
 item-damage:
     Air: 2

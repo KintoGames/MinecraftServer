@@ -15,16 +15,15 @@ permitted-weapon:
 - WOOD
 - STONE
 - IRON_PICKAXE
-- IRON_SWORD
 - IRON_AXE
 - GOLD_AXE
 
 item-damage:
-  WOOD_AXE: 4
-  STONE_AXE: 5
-  AIR: 6
-  IRON_AXE: 7
-  GOLD_AXE: 8
+  WOOD_AXE: 1
+  STONE_AXE: 2
+  AIR: 3
+  IRON_AXE: 4
+  GOLD_AXE: 5
 
 item-damage-level:
 projectile-damage:
@@ -61,7 +60,7 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 100.0
+base-max-health: 200.0
 max-health-per-level: 1
 base-max-mana: 10
 max-mana-per-level: .25

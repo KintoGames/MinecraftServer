@@ -61,8 +61,15 @@ permitted-skills:
         cooldown: 1000
         mana: 10
         amount: 10         
-    IceArrow:
+    Arrowblast:
         level: 1
+        mana: 10
+        max_arrows: 30
+        min_arrows: 15
+        min_rate: 2
+        max_rate: 20
+    IceArrow:
+        level: 5
         cooldown: 1000
         mana: 2    
     FireArrow:
@@ -76,7 +83,7 @@ permitted-skills:
     Track:
         level: 10
         cooldown: 1000
-        mana: 10   
+        mana: 10 
     Arrowstorm:
         level: 15
         cooldown: 1000
@@ -87,7 +94,7 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 70
+base-max-health: 140
 max-health-per-level: 0.75
 base-max-mana: 30
 max-mana-per-level: .5

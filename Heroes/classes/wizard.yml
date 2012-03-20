@@ -93,7 +93,7 @@ experience-sources:
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-health: 50.0
+base-max-health: 100.0
 max-health-per-level: 0.25
 base-max-mana: 50
 max-mana-per-level: 1
