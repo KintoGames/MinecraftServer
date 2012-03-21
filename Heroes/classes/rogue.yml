@@ -35,11 +35,8 @@ permitted-skills:
         level: 1
         chance: 0.1
         chance-per-level: .01
-    Smoke:
+    Sneak:
         level: 1
-        duration: 30000
-        mana: 5
-        cooldown: 30000
     Mark:
         level: 1
         mana: 5

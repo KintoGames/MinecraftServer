@@ -1,11 +1,11 @@
-name: Scout
+name: Thief
 default: false
 parents:
     strong: [Rogue]
     weak: []
 primary: true
 secondary: false
-description: Fire endless arrows and track your enemys down.
+description: Murder and steal from friends and foe.
 max-level: 30
 permitted-armor: 
 - LEATHER
@@ -15,6 +15,7 @@ permitted-weapon:
 - IRON_PICKAXE
 - IRON_SWORD
 - GOLD_SWORD
+- DIAMOND_SWORD
 - BOW
 item-damage:
   WOOD_SWORD: 2
@@ -22,6 +23,7 @@ item-damage:
   AIR: 4
   IRON_SWORD: 5
   GOLD_SWORD: 6
+  DIAMOND_SWORD: 7
 item-damage-level:
 projectile-damage:
   Arrow: 10
@@ -53,38 +55,49 @@ permitted-skills:
         mana: 5
         cooldown: 20000
         speed-multiplier: 1.5  
-    SummonArrow:
+    Backstab:
         level: 1
-        cooldown: 1000
-        mana: 10
-        amount: 10         
-    Arrowblast:
+        attack-bonus: 1.5
+        attack-chance: 0.5
+        sneak-bonus: 4.0
+        sneak-chance: 1.0  
+    PickPocket:
         level: 1
-        mana: 10
-        max_arrows: 30
-        min_arrows: 15
-        min_rate: 2
-        max_rate: 20
-    IceArrow:
+        mana: 5
+        cooldown: 1000
+        max-distance: 15
+        base-chance: 0.1
+        chance-per-level: 0.0030  
+    Bandage:
+        level: 1
+        mana: 5
+        cooldown: 20000
+        max-distance: 5
+        health: 15
+        reagent: 339
+        reagent-cost: 1  
+    AssassinsBlade:
         level: 5
-        cooldown: 1000
-        mana: 2    
-    FireArrow:
-        level: 5
-        cooldown: 1000
-        mana: 5    
-    PoisonArrow:
-        level: 5
-        cooldown: 1000
-        mana: 5    
-    Track:
-        level: 10
-        cooldown: 1000
-        mana: 10 
-    Arrowstorm:
+        mana: 7
+        buff-duration: 600000
+        poison-duration: 10000
+        period: 2000
+        tick-damage: 4
+        attacks: 1
+        apply-text: '%target% is poisoned!'
+        expire-text: '%target% has recovered from the poison!'
+    Curse:
         level: 15
-        cooldown: 1000
-        mana: 10
+        mana: 8
+        cooldown: 20000
+        max-distance: 15
+        duration: 5000
+        miss-chance: 0.5
+    Smoke:
+        level: 15
+        mana: 5
+        duration: 5000
+        cooldown: 60000
 experience-sources:
 - KILLING
 - PVP
