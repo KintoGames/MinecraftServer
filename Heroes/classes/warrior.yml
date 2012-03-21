@@ -23,7 +23,9 @@ permitted-weapon:
 
 item-damage:
   WOOD_AXE: 1
+  WOOD_SWORD: 1
   STONE_AXE: 2
+  STONE_SWORD: 2
   AIR: 3
   IRON_AXE: 4
   IRON_SWORD: 3
