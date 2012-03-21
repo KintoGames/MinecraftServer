@@ -1,4 +1,4 @@
-name: Templar
+name: FTemplar
 default: false
 parents:
     strong: [Fighter]

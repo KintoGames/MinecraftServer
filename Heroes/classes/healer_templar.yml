@@ -1,4 +1,4 @@
-name: Templar
+name: HTemplar
 default: false
 parents:
     strong: [Healer]

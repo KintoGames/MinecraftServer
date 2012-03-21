@@ -1,4 +1,4 @@
-name: Templar
+name: MTemplar
 default: false
 parents:
     strong: [Mage]

@@ -1,4 +1,4 @@
-name: Warlock
+name: FWarlock
 default: false
 parents:
     strong: [Fighter]
