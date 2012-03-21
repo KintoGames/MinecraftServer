@@ -25,7 +25,7 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-     Shield:
+    Shield:
         level:1
     Smite:
         level: 1
@@ -33,7 +33,7 @@ permitted-skills:
         cooldown: 5000
         mana: 10
         damage: 10
-        delay: 1000
+        delay: 1000        
     Mark:
         level: 1
         mana: 5
@@ -51,9 +51,9 @@ permitted-skills:
         health: 10
         mana: 2
         cooldown: 15000
-        delay: 1000
+        delay: 1000        
     Vitalize:
-        level: 5
+        level: 1
         mana: 10
         mana-tick: 4
         mana-tick-increase: 0
@@ -64,14 +64,14 @@ permitted-skills:
         tick-health: 5
         health-tick-increase: 0
         period: 3000
-        delay: 1000
+        delay: 1000        
     Groupheal:
-        level: 5
+        level: 1
         heal-amount: 7
         radius: 10
         cooldown: 80000
-        mana: 4
-        delay: 1000
+        mana: 4      
+        delay: 1000        
     BurningPresence:
         level: 1
         mana: 5
