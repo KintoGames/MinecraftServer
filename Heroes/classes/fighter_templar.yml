@@ -1,11 +1,11 @@
-name: Warlock
+name: Templar
 default: false
 parents:
     strong: [Fighter]
     weak: []
 primary: true
 secondary: false
-description: A dangerous battle mage
+description: An ancient being who gives life, and taketh away.
 max-level: 30
 permitted-armor:
 - LEATHER
@@ -61,33 +61,48 @@ permitted-skills:
         mana: 5 
         delay: 1000
         cooldown: 10000
-    Tackle:
+    BurningPresence:
         level: 1
+        mana: 5
+        cooldown: 5000   
+        tick-damage: 1
+        tick-damage-increase: 0
+        period: 5000
+        radius: 10
+        raidus-increase: 0
         mana: 1
-        cooldown: 20000
-        max-distance: 15
-        radius: 3
-        duration: 3000
-        damage: 10        
-    Lifesteal:
-        level: 1
-        health-per-attack: 2
-        cooldown: 1
-    Icebrand:
+        mana-reduce: 0.0    
+    Slow:
         level: 5
-        cooldown: 500
-        duration: 2000
-    Drain:
+        mana: 8
+        cooldown: 20000  
+        max-distance: 15
+        speed-multiplier: 2
+        duration: 15000
+        duration-increase: 0
+        damage: 12
+        damage-increase: 0    
+    Despair:
         level: 10
-        mana-drain-per-attack: 2
-        drain-increase: 0
-        cooldown: 1
-    VoidBlade:
+        mana: 16
+        cooldown: 15000  
+        radius: 10
+        radius-increase: 0
+        duration: 10000
+        duration-increase: 0
+        damage: 16
+        damage-increase: 0    
+    Pandemic:
         level: 15
-        chance: 0.2
-        chance-per-level: 0.0
-        cooldown: 500
-        duration: 2000
+        mana: 15
+        cooldown: 25000   
+        radius: 10
+        radius-increase: 0
+        damage: 16
+        damage-increase: 0
+        period: 2000
+        duration: 20000
+        duration-increase: 0
 experience-sources:
 - KILLING
 - PVP

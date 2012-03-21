@@ -35,6 +35,7 @@ permitted-skills:
         cooldown: 2500
         slow-duration: 2000
         mana: 5
+        delay: 1000
     Mark:
         level: 1
         mana: 5
@@ -51,6 +52,7 @@ permitted-skills:
         mana: 15
         max-distance: 15
         duration: 5000
+        delay: 2000
     Wisdom:
         level: 1
         radius: 1
@@ -71,6 +73,7 @@ permitted-skills:
         fire-ticks: 100     
         mana: 15
         cooldown: 10000
+        delay: 2000
     IceAura:
         level: 5
         tick-damage: 2
@@ -86,13 +89,15 @@ permitted-skills:
         cooldown: 6000 
         min_duration: 20000
         max_duration: 40000
+        delay: 1000
     Bolt:
         level: 15
         damage: 25
         cooldown: 4000
         damage-per-level: 1
         mana: 15
-        max-distance: 15       
+        max-distance: 15 
+        delay: 3000
 
 experience-sources:
 - KILLING

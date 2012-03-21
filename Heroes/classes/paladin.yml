@@ -34,6 +34,7 @@ permitted-skills:
         cooldown: 5000
         mana: 10
         damage: 10
+        delay: 1000
     Mark:
         level: 1
         mana: 5
@@ -51,8 +52,9 @@ permitted-skills:
         health: 10
         mana: 2
         cooldown: 15000
+        delay: 1000
     Vitalize:
-        level: 1
+        level: 5
         mana: 10
         mana-tick: 4
         mana-tick-increase: 0
@@ -63,12 +65,14 @@ permitted-skills:
         tick-health: 5
         health-tick-increase: 0
         period: 3000
+        delay: 1000
     Groupheal:
-        level: 1
+        level: 5
         heal-amount: 7
         radius: 10
         cooldown: 80000
         mana: 4
+        delay: 1000
     Reborn:
         level: 1
         health-percent-on-rebirth: 0.5
