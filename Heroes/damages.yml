@@ -24,13 +24,13 @@ creature-health:
 creature-damage:
     Creeper: 64
     Giant: 64
-    Zombie: 32
-    PigZombie: 64
-    Wolf: 16
-    Enderman: 64
-    Skeleton: 32
-    Spider: 16
-    CaveSpider: 16
+    Zombie: 16
+    PigZombie: 24
+    Wolf: 8
+    Enderman: 24
+    Skeleton: 16
+    Spider: 8
+    CaveSpider: 8
     SnowMan: 0
 item-damage:
     Air: 2
