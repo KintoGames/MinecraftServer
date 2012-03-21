@@ -6,7 +6,7 @@ parents:
 primary: true
 secondary: false
 description: A highly armored Warrior from which no one can escape.
-max-level: 10
+max-level: 30
 permitted-armor:
 - LEATHER
 - IRON

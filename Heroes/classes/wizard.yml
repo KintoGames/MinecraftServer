@@ -58,6 +58,11 @@ permitted-skills:
         duration: 600000
         mana: 10
         cooldown: 301000
+    Blink:
+        max-distance: 12
+        level: 1
+        mana: 10
+        cooldown: 6000 
     Fireball:
         level: 1
         damage: 15
@@ -75,18 +80,19 @@ permitted-skills:
         raidus-increase: 0
         mana: 20
         mana-reduce: 0.0
-    Blink:
-        max-distance: 12
+    Glassshield:
         level: 10
         mana: 10
-        cooldown: 6000  
+        cooldown: 6000 
+        min_duration: 20000
+        max_duration: 40000
     Bolt:
         level: 15
         damage: 25
         cooldown: 4000
         damage-per-level: 1
         mana: 15
-        max-distance: 15        
+        max-distance: 15       
 
 experience-sources:
 - KILLING

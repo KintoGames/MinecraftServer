@@ -1,7 +1,7 @@
-name: Mage/Warlock
+name: Fighter/Warlock
 default: false
 parents:
-    strong: [Mage]
+    strong: [Fighter]
     weak: []
 primary: true
 secondary: false
@@ -11,40 +11,39 @@ permitted-armor:
 - LEATHER
 - IRON
 - CHAIN
-
+- DIAMOND
 permitted-weapon:
 - WOOD
-- STONE_PICKAXE
-- STONE_AXE
-- STONE_SPADE
-- STONE_HOE
+- STONE
 - IRON_PICKAXE
+- IRON_AXE
 - IRON_SWORD
-- GOLD_SWORD
-- DIAMOND_SWORD
+- GOLD_AXE
+- DIAMOND_AXE
+
 item-damage:
-  WOOD_SWORD: 5 
-  STONE_SWORD: 6 
-  IRON_SWORD: 7
-  GOLD_SWORD: 8  
-  DIAMOND_SWORD: 9
+  WOOD_AXE: 1
+  WOOD_SWORD: 1
+  STONE_AXE: 2
+  STONE_SWORD: 2
+  AIR: 3
+  IRON_AXE: 4
+  IRON_SWORD: 3
+  GOLD_AXE: 5
+  DIAMOND_AXE: 6
+
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Telekinesis:
+    Basher:
         level: 1
-        mana: 10
-        max-distance: 15
-    MagicArmor:
+        chance: 0.1
+        chance-per-level: .01
+        cooldown: 0
+        duration: 2000
+    Shield:
         level: 1
-        amount: 0.5
-    Icebolt:
-        level: 1
-        damage: 10
-        cooldown: 2500
-        slow-duration: 2000
-        mana: 5
     Mark:
         level: 1
         mana: 5
@@ -56,23 +55,20 @@ permitted-skills:
         cooldown: 60000
         health-cost: 10
         delay: 5000
-    Root:
+    Might:
         level: 1
-        mana: 15
+        damage-bonus: 1.3
+        mana: 5 
+        delay: 1000
+        cooldown: 10000
+    Tackle:
+        level: 1
+        mana: 1
+        cooldown: 20000
         max-distance: 15
-        duration: 5000
-    Wisdom:
-        level: 1
-        radius: 1
-        regen-multiplier: 2.0
-        duration: 600000
-        mana: 10
-        cooldown: 301000
-    Blink:
-        max-distance: 12
-        level: 1
-        mana: 10
-        cooldown: 6000 
+        radius: 3
+        duration: 3000
+        damage: 10        
     Lifesteal:
         level: 1
         health-per-attack: 2
@@ -96,13 +92,14 @@ experience-sources:
 - KILLING
 - PVP
 - QUESTING
+- EXTERNAL
 expmodifier: 1.0
-base-max-health: 100.0
-max-health-per-level: 0.25
-base-max-mana: 50
-max-mana-per-level: 1
-mana-regen: 4
-mana-regen-per-level: .1
+base-max-health: 220.0
+max-health-per-level: 1
+base-max-mana: 20
+max-mana-per-level: .25
+mana-regen: 1
+mana-regen-per-level: .025
 expLoss: 0.007
 wildcard-permission: true
 tier: 2
