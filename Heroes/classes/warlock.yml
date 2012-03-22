@@ -36,7 +36,7 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-     Lifesteal:
+    Lifesteal:
         level: 1
         health-per-attack: 2
         cooldown: 1
