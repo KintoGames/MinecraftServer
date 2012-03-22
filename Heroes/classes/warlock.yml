@@ -1,0 +1,66 @@
+name: Warlock
+default: false
+parents:
+    strong: [Fighter]
+    weak: []
+primary: false
+secondary: true
+description: A dangerous battle mage
+max-level: 30
+permitted-armor:
+- LEATHER
+- IRON
+- CHAIN
+- DIAMOND
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_PICKAXE
+- IRON_AXE
+- IRON_SWORD
+- GOLD_AXE
+- DIAMOND_AXE
+
+item-damage:
+  WOOD_AXE: 1
+  WOOD_SWORD: 1
+  STONE_AXE: 2
+  STONE_SWORD: 2
+  AIR: 3
+  IRON_AXE: 4
+  IRON_SWORD: 3
+  GOLD_AXE: 5
+  DIAMOND_AXE: 6
+
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+     Lifesteal:
+        level: 1
+        health-per-attack: 2
+        cooldown: 1
+    Icebrand:
+        level: 5
+        cooldown: 500
+        duration: 2000
+    Drain:
+        level: 10
+        mana-drain-per-attack: 2
+        drain-increase: 0
+        cooldown: 1
+    VoidBlade:
+        level: 15
+        chance: 0.2
+        chance-per-level: 0.0
+        cooldown: 500
+        duration: 2000
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

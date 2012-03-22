@@ -3,8 +3,8 @@ default: false
 parents:
     strong: [Rogue]
     weak: []
-primary: true
-secondary: false
+primary: false
+secondary: true
 description: Fire endless arrows and track your enemys down.
 max-level: 30
 permitted-armor: 
@@ -27,32 +27,6 @@ projectile-damage:
   Arrow: 10
 projectile-damage-level:
 permitted-skills:
-    Critical:
-        level: 1
-        chance: 0.1
-        chance-per-level: .01
-    Dodge:
-        level: 1
-        chance: 0.1
-        chance-per-level: .01
-    Sneak:
-        level: 1
-    Mark:
-        level: 1
-        mana: 5
-        reagent: BED
-        reagent-cost: 1
-    Recall:
-        level: 1
-        mana: 40
-        cooldown: 60000
-        health-cost: 10
-        delay: 5000
-    One:
-        level: 1
-        mana: 5
-        cooldown: 20000
-        speed-multiplier: 1.5  
     SummonArrow:
         level: 1
         cooldown: 1000
@@ -91,12 +65,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 140
-max-health-per-level: 0.75
-base-max-mana: 30
-max-mana-per-level: .5
-mana-regen: 2
-mana-regen-per-level: .05
 expLoss: 0.007
 wildcard-permission: true
 tier: 2
