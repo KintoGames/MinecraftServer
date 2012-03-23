@@ -77,7 +77,7 @@ Fishing:
     Tier5: 800
 Abilities:
   Enabled: true
-  Messages: true
+  Messages: false
   Activation:
     Only_Activate_When_Sneaking: false
   Cooldowns:
@@ -257,10 +257,10 @@ Commands:
   xprate:
     Enabled: true
   mcgod:
-    Enabled: true
+    Enabled: false
   mcmmo:
     Enabled: true
-    Donate_Message: true
+    Donate_Message: false
   mcrefresh:
     Enabled: true
   addxp:
