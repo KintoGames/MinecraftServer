@@ -2,7 +2,7 @@ name: Warrior
 default: false
 parents:
     strong: []
-    weak: [Fighter, Rouge]
+    weak: [Fighter, Rogue]
 primary: false
 secondary: true
 description: A highly armored Warrior from which no one can escape.
