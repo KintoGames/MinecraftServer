@@ -1,12 +1,12 @@
-name: Mage
+name: Wizard
 default: false
 parents:
-    strong: []
+    strong: [Mage]
     weak: []
 primary: true
 secondary: false
-description: Outsmart others, from a distance.
-max-level: 10
+description: A powerfull magic user
+max-level: 30
 permitted-armor:
 - LEATHER
 permitted-weapon:
@@ -17,6 +17,7 @@ permitted-weapon:
 - STONE_HOE
 - IRON_PICKAXE
 item-damage:
+  WOOD_SWORD: 1  
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
@@ -30,8 +31,8 @@ permitted-skills:
         amount: 0.5
     Icebolt:
         level: 1
-        damage: 5
-        cooldown: 500
+        damage: 10
+        cooldown: 2500
         slow-duration: 2000
         mana: 5
         delay: 1000
@@ -53,7 +54,7 @@ permitted-skills:
         duration: 5000
         delay: 2000
     Wisdom:
-        level: 5
+        level: 1
         radius: 1
         regen-multiplier: 2.0
         duration: 600000
@@ -61,20 +62,55 @@ permitted-skills:
         cooldown: 301000
     Blink:
         max-distance: 12
-        level: 5
+        level: 1
         mana: 10
         cooldown: 6000 
+    Fireball:
+        level: 1
+        damage: 15
+        damage-per-level: 1
+        velocity-multiplier: 1.5
+        fire-ticks: 100     
+        mana: 15
+        cooldown: 10000
+        delay: 2000
+    IceAura:
+        level: 5
+        tick-damage: 2
+        tick-damage-increase: 0
+        period: 1000
+        radius: 10
+        raidus-increase: 0
+        mana: 20
+        mana-reduce: 0.0
+    Glassshield:
+        level: 10
+        mana: 10
+        cooldown: 6000 
+        min_duration: 20000
+        max_duration: 40000
+        delay: 1000
+    Bolt:
+        level: 15
+        damage: 25
+        cooldown: 4000
+        damage-per-level: 1
+        mana: 15
+        max-distance: 15 
+        delay: 3000
+
 experience-sources:
 - KILLING
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-mana: 40
+base-max-health: 100.0
+max-health-per-level: 0.25
+base-max-mana: 50
 max-mana-per-level: 1
 mana-regen: 4
 mana-regen-per-level: .1
 expLoss: 0.007
 wildcard-permission: true
-tier: 1
+tier: 2
 recipes: [ default ]
-
