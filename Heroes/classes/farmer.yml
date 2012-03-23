@@ -16,12 +16,6 @@ permitted-weapon:
 - GOLD
 - DIAMOND
 permitted-skills:
-Enchant:
-       level: 1
-Disenchant:
-       level: 1
-Alchemy:
-       level: 1
 experience-sources:
 - KILLING
 - CRAFTING
