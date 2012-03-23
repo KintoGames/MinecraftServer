@@ -4,11 +4,24 @@ primary: true
 secondary: false
 description: Farming and a simple life adventureing is not for you
 permitted-armor:
+- LEATHER
+- IRON
+- GOLD
+- DIAMOND
 permitted-weapon:
 - FISHING_ROD
 - SHEARS
 - STONE
+- IRON
+- GOLD
+- DIAMOND
 permitted-skills:
+Enchant:
+       level: 1
+Disenchant:
+       level: 1
+Alchemy:
+       level: 1
 experience-sources:
 - KILLING
 - CRAFTING
@@ -18,13 +31,9 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 permission-skills:
-base-max-health: 20
-max-health-per-level: 0.1
 expmodifier: 1.0
 item-damage:
-  air: 1
 projectile-damage:
-  Arrow: 3
 expLoss: 0
 tier: 0
 recipes: [ default ]
