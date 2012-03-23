@@ -77,9 +77,9 @@ Fishing:
     Tier5: 800
 Abilities:
   Enabled: true
-  Messages: false
+  Messages: true
   Activation:
-    Only_Activate_When_Sneaking: false
+    Only_Activate_When_Sneaking: true
   Cooldowns:
     Blast_Mining: 60
     Giga_Drill_Breaker: 240
