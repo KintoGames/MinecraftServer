@@ -26,7 +26,7 @@ permitted-skills:
         duration: 3000
         damage: 3        
     MortalWound:
-        level: 5
+        level: 10
         mana: 3
         cooldown: 15000
         max-distance: 15
@@ -34,14 +34,14 @@ permitted-skills:
         damage: 7
         delay: 1000
     Wrestle:
-        level: 10
+        level: 20
         mana: 6
         cooldown: 20000
         duration: 10000
         radius: 3
         damage: 2
     InvertDamage:
-        level: 15
+        level: 30
         mana: 8
         cooldown: 20000
         duration: 6000 

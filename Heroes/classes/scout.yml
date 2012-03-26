@@ -29,23 +29,23 @@ permitted-skills:
         min_rate: 2
         max_rate: 20
     IceArrow:
-        level: 5
+        level: 10
         cooldown: 1000
         mana: 2    
     FireArrow:
-        level: 5
+        level: 10
         cooldown: 1000
         mana: 5    
     PoisonArrow:
-        level: 5
+        level: 10
         cooldown: 1000
         mana: 5    
     Track:
-        level: 10
+        level: 20
         cooldown: 1000
         mana: 10 
     Arrowstorm:
-        level: 15
+        level: 30
         cooldown: 1000
         mana: 10
 experience-sources:

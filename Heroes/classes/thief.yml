@@ -39,7 +39,7 @@ permitted-skills:
         reagent: 339
         reagent-cost: 1  
     AssassinsBlade:
-        level: 5
+        level: 10
         mana: 7
         buff-duration: 600000
         poison-duration: 10000
@@ -49,14 +49,14 @@ permitted-skills:
         apply-text: '%target% is poisoned!'
         expire-text: '%target% has recovered from the poison!'
     Curse:
-        level: 15
+        level: 20
         mana: 8
         cooldown: 20000
         max-distance: 15
         duration: 5000
         miss-chance: 0.5
     Smoke:
-        level: 15
+        level: 30
         mana: 5
         duration: 5000
         cooldown: 60000

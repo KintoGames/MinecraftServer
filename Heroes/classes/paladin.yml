@@ -26,19 +26,19 @@ permitted-skills:
         cooldown: 600000
         cooldown-reduce: 0
     HealBomb:
-        level: 5
+        level: 10
         health: 2
         damage: 5
         radius: 6
         cooldown: 2000
         mana: 10
     Invuln:
-        level: 10
+        level: 20
         mana: 15
         duration: 10000
         cooldown: 300000
     FullHeal:
-        level: 15
+        level: 30
         mana: 25
         duration: 10000
         period: 1000

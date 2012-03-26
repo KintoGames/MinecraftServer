@@ -29,7 +29,7 @@ permitted-skills:
         mana: 1
         mana-reduce: 0.0    
     Slow:
-        level: 5
+        level: 10
         mana: 8
         cooldown: 20000  
         max-distance: 15
@@ -39,7 +39,7 @@ permitted-skills:
         damage: 3
         damage-increase: 0    
     Despair:
-        level: 10
+        level: 20
         mana: 16
         cooldown: 15000  
         radius: 10
@@ -49,7 +49,7 @@ permitted-skills:
         damage: 4
         damage-increase: 0    
     Pandemic:
-        level: 15
+        level: 30
         mana: 15
         cooldown: 25000   
         radius: 10
