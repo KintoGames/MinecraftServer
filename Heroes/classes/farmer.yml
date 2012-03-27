@@ -6,6 +6,7 @@ description: The balanced minecraft hero.
 permitted-armor:
 - LEATHER
 - IRON
+- CHAIN
 - GOLD
 - DIAMOND
 permitted-weapon:
