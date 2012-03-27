@@ -2,7 +2,7 @@ name: Thief
 default: false
 parents:
     strong: []
-    weak: [Rogue, Fighter]
+    weak: [Rogue, Fighter, Mage]
 primary: false
 secondary: true
 description: Murder and steal from friends and foe.
