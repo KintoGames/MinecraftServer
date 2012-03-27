@@ -1,0 +1,47 @@
+name: Warlock
+default: false
+parents:
+    strong: []
+    weak: [Fighter, Mage]
+primary: false
+secondary: true
+description: A dangerous battle mage
+max-level: 30
+permitted-armor:
+- IRON
+- DIAMOND
+permitted-weapon:
+- DIAMOND_SWORD
+item-damage:
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    Lifesteal:
+        level: 1
+        health-per-attack: 1
+        cooldown: 1
+    Icebrand:
+        level: 10
+        cooldown: 500
+        duration: 2000
+    Drain:
+        level: 20
+        mana-drain-per-attack: 2
+        drain-increase: 0
+        cooldown: 1
+    VoidBlade:
+        level: 30
+        chance: 0.2
+        chance-per-level: 0.0
+        cooldown: 500
+        duration: 2000
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

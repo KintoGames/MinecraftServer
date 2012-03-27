@@ -1,66 +1,22 @@
 name: Warrior
 default: false
 parents:
-    strong: [Fighter]
-    weak: []
-primary: true
-secondary: false
+    strong: []
+    weak: [Fighter, Rogue]
+primary: false
+secondary: true
 description: A highly armored Warrior from which no one can escape.
 max-level: 30
 permitted-armor:
-- LEATHER
 - IRON
-- CHAIN
 - DIAMOND
 permitted-weapon:
-- WOOD
-- STONE
-- IRON_PICKAXE
-- IRON_AXE
-- IRON_SWORD
-- GOLD_AXE
 - DIAMOND_AXE
-
 item-damage:
-  WOOD_AXE: 1
-  WOOD_SWORD: 1
-  STONE_AXE: 2
-  STONE_SWORD: 2
-  AIR: 3
-  IRON_AXE: 4
-  IRON_SWORD: 3
-  GOLD_AXE: 5
-  DIAMOND_AXE: 6
-
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Basher:
-        level: 1
-        chance: 0.1
-        chance-per-level: .01
-        cooldown: 0
-        duration: 2000
-    Shield:
-        level: 1
-    Mark:
-        level: 1
-        mana: 5
-        reagent: BED
-        reagent-cost: 1
-    Recall:
-        level: 1
-        mana: 10
-        cooldown: 60000
-        health-cost: 10
-        delay: 5000
-    Might:
-        level: 1
-        damage-bonus: 1.3
-        mana: 5 
-        delay: 1000
-        cooldown: 10000
     Tackle:
         level: 1
         mana: 5
@@ -68,9 +24,9 @@ permitted-skills:
         max-distance: 15
         radius: 3
         duration: 3000
-        damage: 10        
+        damage: 3        
     MortalWound:
-        level: 5
+        level: 10
         mana: 3
         cooldown: 15000
         max-distance: 15
@@ -78,14 +34,14 @@ permitted-skills:
         damage: 7
         delay: 1000
     Wrestle:
-        level: 10
+        level: 20
         mana: 6
         cooldown: 20000
         duration: 10000
         radius: 3
         damage: 2
     InvertDamage:
-        level: 15
+        level: 30
         mana: 8
         cooldown: 20000
         duration: 6000 
@@ -95,12 +51,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 220.0
-max-health-per-level: 1
-base-max-mana: 20
-max-mana-per-level: .25
-mana-regen: 1
-mana-regen-per-level: .025
 expLoss: 0.007
 wildcard-permission: true
 tier: 2

@@ -5,7 +5,7 @@ parents:
     weak: []
 primary: true
 secondary: false
-description: Take alot of damage, and dish it out
+description: Takes alot of damage, you are the hero of the story.
 max-level: 10
 permitted-armor:
 - LEATHER
@@ -19,24 +19,13 @@ permitted-weapon:
 - IRON_SWORD
 - GOLD_AXE
 
-item-damage:
-  WOOD_AXE: 1
-  STONE_AXE: 2
-  AIR: 3
-  IRON_AXE: 4
-  IRON_SWORD: 3
-  GOLD_AXE: 5
-
-item-damage-level:
-projectile-damage:
-projectile-damage-level:
 permitted-skills:
     Basher:
         level: 1
-        chance: 0.1
-        chance-per-level: .01
+        chance: 0.005
+        chance-per-level: .001
         cooldown: 0
-        duration: 2000
+        duration: 1000
     Shield:
         level: 1
     Mark:
@@ -62,8 +51,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 200.0
-max-health-per-level: 1
 base-max-mana: 10
 max-mana-per-level: .25
 mana-regen: 1

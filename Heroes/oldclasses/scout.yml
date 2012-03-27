@@ -1,0 +1,60 @@
+name: Scout
+default: false
+parents:
+    strong: []
+    weak: [Rogue, Fighter]
+primary: false
+secondary: true
+description: Fire endless arrows and track your enemys down.
+max-level: 30
+permitted-armor: 
+- LEATHER
+permitted-weapon:
+- BOW
+item-damage:
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    SummonArrow:
+        level: 1
+        cooldown: 1000
+        mana: 10
+        amount: 10         
+    Arrowblast:
+        level: 1
+        mana: 10
+        max_arrows: 30
+        min_arrows: 15
+        min_rate: 2
+        max_rate: 20
+    IceArrow:
+        level: 5
+        cooldown: 1000
+        mana: 2    
+    FireArrow:
+        level: 5
+        cooldown: 1000
+        mana: 5    
+    PoisonArrow:
+        level: 5
+        cooldown: 1000
+        mana: 5    
+    Track:
+        level: 10
+        cooldown: 1000
+        mana: 10 
+    Arrowstorm:
+        level: 15
+        cooldown: 1000
+        mana: 10
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

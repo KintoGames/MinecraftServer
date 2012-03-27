@@ -22,49 +22,6 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Telekinesis:
-        level: 1
-        mana: 10
-        max-distance: 15
-    MagicArmor:
-        level: 1
-        amount: 0.5
-    Icebolt:
-        level: 1
-        damage: 10
-        cooldown: 2500
-        slow-duration: 2000
-        mana: 5
-        delay: 1000
-    Mark:
-        level: 1
-        mana: 5
-        reagent: BED
-        reagent-cost: 1
-    Recall:
-        level: 1
-        mana: 10
-        cooldown: 60000
-        health-cost: 10
-        delay: 5000
-    Root:
-        level: 1
-        mana: 15
-        max-distance: 15
-        duration: 5000
-        delay: 2000
-    Wisdom:
-        level: 1
-        radius: 1
-        regen-multiplier: 2.0
-        duration: 600000
-        mana: 10
-        cooldown: 301000
-    Blink:
-        max-distance: 12
-        level: 1
-        mana: 10
-        cooldown: 6000 
     Fireball:
         level: 1
         damage: 15
@@ -75,7 +32,7 @@ permitted-skills:
         cooldown: 10000
         delay: 2000
     IceAura:
-        level: 5
+        level: 10
         tick-damage: 2
         tick-damage-increase: 0
         period: 1000
@@ -84,14 +41,14 @@ permitted-skills:
         mana: 20
         mana-reduce: 0.0
     Glassshield:
-        level: 10
+        level: 20
         mana: 10
         cooldown: 6000 
         min_duration: 20000
         max_duration: 40000
         delay: 1000
     Bolt:
-        level: 15
+        level: 30
         damage: 25
         cooldown: 4000
         damage-per-level: 1

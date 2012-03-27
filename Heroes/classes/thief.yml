@@ -1,60 +1,22 @@
 name: Thief
 default: false
 parents:
-    strong: [Rogue]
-    weak: []
-primary: true
-secondary: false
+    strong: []
+    weak: [Rogue, Fighter]
+primary: false
+secondary: true
 description: Murder and steal from friends and foe.
 max-level: 30
 permitted-armor: 
 - LEATHER
 permitted-weapon:
-- WOOD
-- STONE
-- IRON_PICKAXE
-- IRON_SWORD
-- GOLD_SWORD
 - DIAMOND_SWORD
 - BOW
 item-damage:
-  WOOD_SWORD: 2
-  STONE_SWORD: 3
-  AIR: 4
-  IRON_SWORD: 5
-  GOLD_SWORD: 6
-  DIAMOND_SWORD: 7
 item-damage-level:
 projectile-damage:
-  Arrow: 10
 projectile-damage-level:
 permitted-skills:
-    Critical:
-        level: 1
-        chance: 0.1
-        chance-per-level: .01
-    Dodge:
-        level: 1
-        chance: 0.1
-        chance-per-level: .01
-    Sneak:
-        level: 1
-    Mark:
-        level: 1
-        mana: 5
-        reagent: BED
-        reagent-cost: 1
-    Recall:
-        level: 1
-        mana: 40
-        cooldown: 60000
-        health-cost: 10
-        delay: 5000
-    One:
-        level: 1
-        mana: 5
-        cooldown: 20000
-        speed-multiplier: 1.5  
     Backstab:
         level: 1
         attack-bonus: 1.5
@@ -77,7 +39,7 @@ permitted-skills:
         reagent: 339
         reagent-cost: 1  
     AssassinsBlade:
-        level: 5
+        level: 10
         mana: 7
         buff-duration: 600000
         poison-duration: 10000
@@ -87,14 +49,14 @@ permitted-skills:
         apply-text: '%target% is poisoned!'
         expire-text: '%target% has recovered from the poison!'
     Curse:
-        level: 15
+        level: 20
         mana: 8
         cooldown: 20000
         max-distance: 15
         duration: 5000
         miss-chance: 0.5
     Smoke:
-        level: 15
+        level: 30
         mana: 5
         duration: 5000
         cooldown: 60000
@@ -104,12 +66,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 140
-max-health-per-level: 0.75
-base-max-mana: 30
-max-mana-per-level: .5
-mana-regen: 2
-mana-regen-per-level: .05
 expLoss: 0.007
 wildcard-permission: true
 tier: 2
