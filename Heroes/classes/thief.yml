@@ -44,7 +44,7 @@ permitted-skills:
         buff-duration: 600000
         poison-duration: 10000
         period: 2000
-        tick-damage: 4
+        tick-damage: 1
         attacks: 1
         apply-text: '%target% is poisoned!'
         expire-text: '%target% has recovered from the poison!'

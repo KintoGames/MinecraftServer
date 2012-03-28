@@ -28,13 +28,14 @@ permitted-skills:
     MagicArmor:
         level: 1
         amount: 0.5
-    Icebolt:
+    Bolt:
         level: 1
-        damage: 5
-        cooldown: 500
-        slow-duration: 2000
-        mana: 5
-        delay: 1000
+        damage: 2
+        cooldown: 2000
+        damage-per-level: .01
+        mana: 15
+        max-distance: 15 
+        delay: 2000
     Mark:
         level: 1
         mana: 5
