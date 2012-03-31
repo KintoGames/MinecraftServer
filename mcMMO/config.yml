@@ -3,7 +3,7 @@
 #    First generated on 1.3.03-b538
 General:
   Locale: en_us
-  MOTD_Enabled: true
+  MOTD_Enabled: false
   Save_Interval: 10
   Stats_Tracking: true
   Event_Callback: true

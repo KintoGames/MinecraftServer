@@ -22,18 +22,22 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Fireball:
+    Multibolt:
         level: 1
-        damage: 15
-        damage-per-level: 1
-        velocity-multiplier: 1.5
-        fire-ticks: 100     
-        mana: 15
+        delay: 100
         cooldown: 10000
-        delay: 2000
+        mana: 15
+        max-distance: 40
+        max-distance-increase: 0
+        max-strikes: 4
+        max-strikes-increase: 0
+        chance: 0.5
+        chance-per-level: 0
+        damage: 1
+        damage-increase: .01
     IceAura:
         level: 10
-        tick-damage: 2
+        tick-damage: 1
         tick-damage-increase: 0
         period: 1000
         radius: 10
@@ -47,14 +51,14 @@ permitted-skills:
         min_duration: 20000
         max_duration: 40000
         delay: 1000
-    Bolt:
+    Megabolt:
         level: 30
-        damage: 25
-        cooldown: 4000
-        damage-per-level: 1
-        mana: 15
+        damage: 2
+        cooldown: 20000
+        damage-per-level: .01
+        mana: 25
         max-distance: 15 
-        delay: 3000
+        delay: 4000
 
 experience-sources:
 - KILLING

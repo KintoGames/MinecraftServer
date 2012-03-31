@@ -36,7 +36,7 @@ permitted-skills:
         speed-multiplier: 2
         duration: 15000
         duration-increase: 0
-        damage: 3
+        damage: 1
         damage-increase: 0    
     Despair:
         level: 20
@@ -46,7 +46,7 @@ permitted-skills:
         radius-increase: 0
         duration: 10000
         duration-increase: 0
-        damage: 4
+        damage: 2
         damage-increase: 0    
     Pandemic:
         level: 30
@@ -54,7 +54,7 @@ permitted-skills:
         cooldown: 25000   
         radius: 10
         radius-increase: 0
-        damage: 4
+        damage: 3
         damage-increase: 0
         period: 2000
         duration: 20000
