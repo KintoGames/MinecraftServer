@@ -9,17 +9,12 @@ description: Defend your party and heal damage
 max-level: 10
 permitted-armor:
 - LEATHER
-- IRON
 permitted-weapon:
 - WOOD
 - STONE
-- IRON_PICKAXE
+- IRON_SPADE
+- GOLD_SPADE
 item-damage:
-  WOOD_PICKAXE: 3
-  STONE_PICKAXE: 4
-  IRON_PICKAXE: 5
-  GOLD_PICKAXE: 6
-
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
@@ -28,10 +23,11 @@ permitted-skills:
         level:1
     Smite:
         level: 1
-        damage: 10
+        damage: 1
         cooldown: 5000
         mana: 10
         damage: 10
+        delay: 5000
     Mark:
         level: 1
         mana: 5
@@ -46,9 +42,10 @@ permitted-skills:
     Pray:
         level: 1
         max-distance: 15
-        health: 10
+        health: 5
         mana: 2
         cooldown: 15000
+        delay: 1000
     Vitalize:
         level: 5
         mana: 10
@@ -58,15 +55,17 @@ permitted-skills:
         radius-increase: 0
         duration: 12000
         duration-increase: 0
-        tick-health: 5
+        tick-health: 1
         health-tick-increase: 0
         period: 3000
+        delay: 1000
     Groupheal:
         level: 5
-        heal-amount: 7
+        heal-amount: 6
         radius: 10
         cooldown: 80000
         mana: 4
+        delay: 1000
 
 experience-sources:
 - KILLING
@@ -74,8 +73,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 80.0
-max-health-per-level: 0.5
 base-max-mana: 30
 max-mana-per-level: .75
 mana-regen: 3

@@ -1,0 +1,75 @@
+name: Templar
+default: false
+parents:
+    strong: []
+    weak: [Healer, Fighter, Mage]
+primary: false
+secondary: true
+description: An ancient being who gives life, and taketh away.
+max-level: 30
+permitted-armor:
+- LEATHER
+- IRON
+permitted-weapon:
+- DIAMOND_SPADE
+item-damage:
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    BurningPresence:
+        level: 1
+        mana: 5
+        cooldown: 5000   
+        tick-damage: 1
+        tick-damage-increase: 0
+        period: 5000
+        radius: 10
+        raidus-increase: 0
+        mana: 1
+        mana-reduce: 0.0    
+    Slow:
+        level: 10
+        mana: 8
+        cooldown: 20000  
+        max-distance: 15
+        speed-multiplier: 2
+        duration: 15000
+        duration-increase: 0
+        damage: 1
+        damage-increase: 0    
+    Despair:
+        level: 20
+        mana: 16
+        cooldown: 15000  
+        radius: 10
+        radius-increase: 0
+        duration: 10000
+        duration-increase: 0
+        damage: 2
+        damage-increase: 0    
+    Pandemic:
+        level: 30
+        mana: 15
+        cooldown: 25000   
+        radius: 10
+        radius-increase: 0
+        damage: 3
+        damage-increase: 0
+        period: 2000
+        duration: 20000
+        duration-increase: 0
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+base-max-mana: 40
+max-mana-per-level: .75
+mana-regen: 3
+mana-regen-per-level: .075
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

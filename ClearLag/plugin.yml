@@ -1,0 +1,13 @@
+name: LaggClear
+author: bob7l
+description: Clear your lagg!
+main: me.minebuilders.laggclear.laggclear
+version: 1.2
+commands:
+  lagg:
+    description: Clears lagg!
+    usage: -=Wrong usage, please do /lagg clear=-
+    permission: lagg.admin
+permissions:
+  lagg.admin:
+    description: Allows permissions

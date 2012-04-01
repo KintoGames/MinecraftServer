@@ -5,7 +5,7 @@ parents:
     weak: []
 primary: true
 secondary: false
-description: Use magic to defeat your enemy
+description: Outsmart others, from a distance.
 max-level: 10
 permitted-armor:
 - LEATHER
@@ -17,7 +17,6 @@ permitted-weapon:
 - STONE_HOE
 - IRON_PICKAXE
 item-damage:
-  WOOD_SWORD: 1  
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
@@ -29,12 +28,14 @@ permitted-skills:
     MagicArmor:
         level: 1
         amount: 0.5
-    Icebolt:
+    Bolt:
         level: 1
-        damage: 10
-        cooldown: 2500
-        slow-duration: 2000
-        mana: 5
+        damage: 2
+        cooldown: 2000
+        damage-per-level: .01
+        mana: 15
+        max-distance: 15 
+        delay: 2000
     Mark:
         level: 1
         mana: 5
@@ -47,10 +48,11 @@ permitted-skills:
         health-cost: 10
         delay: 5000
     Root:
-		level: 5
-		mana: 15
-		max-distance: 15
-		duration: 5000
+        level: 1
+        mana: 15
+        max-distance: 15
+        duration: 5000
+        delay: 2000
     Wisdom:
         level: 5
         radius: 1
@@ -58,13 +60,16 @@ permitted-skills:
         duration: 600000
         mana: 10
         cooldown: 301000
+    Blink:
+        max-distance: 12
+        level: 5
+        mana: 10
+        cooldown: 6000 
 experience-sources:
 - KILLING
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-health: 40.0
-max-health-per-level: 0.25
 base-max-mana: 40
 max-mana-per-level: 1
 mana-regen: 4

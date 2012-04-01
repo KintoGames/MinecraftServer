@@ -5,7 +5,7 @@ parents:
     weak: []
 primary: true
 secondary: false
-description: Attack from the shadows
+description: Attack from the shadows, flee from battle!
 max-level: 10
 permitted-armor: 
 - LEATHER
@@ -17,14 +17,8 @@ permitted-weapon:
 - GOLD_SWORD
 - BOW
 item-damage:
-  WOOD_SWORD: 3
-  STONE_SWORD: 4
-  AIR: 5
-  IRON_SWORD: 6
-  GOLD_SWORD: 7
 item-damage-level:
 projectile-damage:
-  Arrow: 9
 projectile-damage-level:
 permitted-skills:
     Critical:
@@ -35,11 +29,8 @@ permitted-skills:
         level: 1
         chance: 0.1
         chance-per-level: .01
-    Smoke:
+    Sneak:
         level: 1
-        duration: 30000
-        mana: 5
-        cooldown: 30000
     Mark:
         level: 1
         mana: 5
@@ -62,8 +53,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 60
-max-health-per-level: 0.75
 base-max-mana: 20
 max-mana-per-level: .5
 mana-regen: 2

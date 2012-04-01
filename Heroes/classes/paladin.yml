@@ -1,74 +1,24 @@
 name: Paladin
 default: false
 parents:
-    strong: [Healer]
-    weak: []
-primary: true
-secondary: false
+    strong: []
+    weak: [Healer, Fighter]
+primary: false
+secondary: true
 description: An invincible healing warrior.
 max-level: 30
 permitted-armor:
-- LEATHER
 - IRON
 permitted-weapon:
 - WOOD
 - STONE
-- IRON_PICKAXE
-- DIAMOND_PICKAXE
+- IRON_SPADE
+- DIAMOND_SPADE
 item-damage:
-  WOOD_PICKAXE: 3
-  STONE_PICKAXE: 4
-  IRON_PICKAXE: 5
-  GOLD_PICKAXE: 6
-  DIAMOND_PICKAXE: 7
-
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Shield:
-        level:1
-    Smite:
-        level: 1
-        damage: 10
-        cooldown: 5000
-        mana: 10
-        damage: 10
-    Mark:
-        level: 1
-        mana: 5
-        reagent: BED
-        reagent-cost: 1
-    Recall:
-        level: 1
-        mana: 40
-        cooldown: 60000
-        health-cost: 10
-        delay: 5000
-    Pray:
-        level: 1
-        max-distance: 15
-        health: 10
-        mana: 2
-        cooldown: 15000
-    Vitalize:
-        level: 1
-        mana: 10
-        mana-tick: 4
-        mana-tick-increase: 0
-        radius: 15
-        radius-increase: 0
-        duration: 12000
-        duration-increase: 0
-        tick-health: 5
-        health-tick-increase: 0
-        period: 3000
-    Groupheal:
-        level: 1
-        heal-amount: 7
-        radius: 10
-        cooldown: 80000
-        mana: 4
     Reborn:
         level: 1
         health-percent-on-rebirth: 0.5
@@ -76,19 +26,19 @@ permitted-skills:
         cooldown: 600000
         cooldown-reduce: 0
     HealBomb:
-        level: 5
-        health: 5
+        level: 10
+        health: 2
         damage: 5
         radius: 6
         cooldown: 2000
-        mana: 5
+        mana: 10
     Invuln:
-        level: 10
+        level: 20
         mana: 15
         duration: 10000
         cooldown: 300000
     FullHeal:
-        level: 15
+        level: 30
         mana: 25
         duration: 10000
         period: 1000
@@ -99,12 +49,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-health: 100.0
-max-health-per-level: 0.5
-base-max-mana: 40
-max-mana-per-level: .75
-mana-regen: 3
-mana-regen-per-level: .075
 expLoss: 0.007
 wildcard-permission: true
 tier: 2

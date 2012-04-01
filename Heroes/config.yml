@@ -37,7 +37,7 @@ properties:
   block-tracking-duration: 900000
   max-tracked-blocks: 2000
   food-heal-percent: 0.05
-  slow-while-casting: true
+  slow-while-casting: false
   combat-time: 10000
 bed:
   enabled: true
@@ -48,7 +48,7 @@ mana:
   percent: 5
 bonus:
   expiration: 0
-  exp: 2.0
+  exp: 1.0
   message: Bonus experience time is enabled!
 hats:
   level: 1

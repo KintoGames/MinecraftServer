@@ -13,29 +13,29 @@ farming:
     brown_mushroom: 1
     long_grass: .1
 killing:
-    chicken: 1
-    cow: 1
-    creeper: 23
-    ghast: 60
-    pig: 1
-    pig_zombie: 50
-    sheep: 1
-    wolf: 6
-    skeleton: 22
-    cave_spider: 10
-    spider: 18
-    zombie: 20
-    squid: 1
+    chicken: 8
+    cow: 8
+    creeper: 32
+    ghast: 64
+    pig: 8
+    pig_zombie: 64
+    sheep: 8
+    wolf: 16
+    skeleton: 32
+    cave_spider: 16
+    spider: 16
+    zombie: 32
+    squid: 8
     slime: 15
-    giant: 300
-    player: 31
-    blaze: 25
-    magma_cube: 12
-    enderman: 50
-    ender_dragon: 600
-    villager: 1
-    snowman: 5
-    mushroom_cow: 1
+    giant: 512
+    player: 128
+    blaze: 64
+    magma_cube: 16
+    enderman: 64
+    ender_dragon: 1024
+    villager: 16
+    snowman: 8
+    mushroom_cow: 8
 mining:
     coal: 5
     cobblestone: 1

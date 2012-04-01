@@ -2,13 +2,33 @@ name: Farmer
 default: true
 primary: true
 secondary: false
-description: Farming and a simple life adventureing is not for you
+description: The balanced minecraft hero.
 permitted-armor:
+- LEATHER
+- IRON
+- CHAIN
+- GOLD
+- DIAMOND
 permitted-weapon:
-- FISHING_ROD
-- SHEARS
+- SHEERS
+- FISHINGPOLE
 - STONE
+- WOOD
+- IRON
+- GOLD
+- DIAMOND
 permitted-skills:
+    Mark:
+        level: 1
+        mana: 5
+        reagent: BED
+        reagent-cost: 1
+    Recall:
+        level: 1
+        mana: 10
+        cooldown: 60000
+        health-cost: 10
+        delay: 5000
 experience-sources:
 - KILLING
 - CRAFTING
@@ -18,13 +38,9 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 permission-skills:
-base-max-health: 20
-max-health-per-level: 0.1
 expmodifier: 1.0
 item-damage:
-  air: 1
 projectile-damage:
-  Arrow: 3
 expLoss: 0
 tier: 0
 recipes: [ default ]

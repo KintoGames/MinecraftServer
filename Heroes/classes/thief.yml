@@ -1,0 +1,72 @@
+name: Thief
+default: false
+parents:
+    strong: []
+    weak: [Rogue, Fighter, Mage]
+primary: false
+secondary: true
+description: Murder and steal from friends and foe.
+max-level: 30
+permitted-armor: 
+- LEATHER
+permitted-weapon:
+- DIAMOND_SWORD
+- BOW
+item-damage:
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    Backstab:
+        level: 1
+        attack-bonus: 1.5
+        attack-chance: 0.5
+        sneak-bonus: 4.0
+        sneak-chance: 1.0  
+    PickPocket:
+        level: 1
+        mana: 5
+        cooldown: 1000
+        max-distance: 15
+        base-chance: 0.1
+        chance-per-level: 0.0030  
+    Bandage:
+        level: 1
+        mana: 5
+        cooldown: 20000
+        max-distance: 5
+        health: 15
+        reagent: 339
+        reagent-cost: 1  
+    AssassinsBlade:
+        level: 10
+        mana: 7
+        buff-duration: 600000
+        poison-duration: 10000
+        period: 2000
+        tick-damage: 1
+        attacks: 1
+        apply-text: '%target% is poisoned!'
+        expire-text: '%target% has recovered from the poison!'
+    Curse:
+        level: 20
+        mana: 8
+        cooldown: 20000
+        max-distance: 15
+        duration: 5000
+        miss-chance: 0.5
+    Smoke:
+        level: 30
+        mana: 5
+        duration: 5000
+        cooldown: 60000
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

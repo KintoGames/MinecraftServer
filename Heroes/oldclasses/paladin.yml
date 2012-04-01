@@ -1,0 +1,55 @@
+name: Paladin
+default: false
+parents:
+    strong: []
+    weak: [Healer, Fighter]
+primary: false
+secondary: true
+description: An invincible healing warrior.
+max-level: 30
+permitted-armor:
+- IRON
+permitted-weapon:
+- WOOD
+- STONE
+- IRON_SPADE
+- DIAMOND_SPADE
+item-damage:
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    Reborn:
+        level: 1
+        health-percent-on-rebirth: 0.5
+        health-increase: 0.0
+        cooldown: 600000
+        cooldown-reduce: 0
+    HealBomb:
+        level: 5
+        health: 2
+        damage: 5
+        radius: 6
+        cooldown: 2000
+        mana: 10
+    Invuln:
+        level: 10
+        mana: 15
+        duration: 10000
+        cooldown: 300000
+    FullHeal:
+        level: 15
+        mana: 25
+        duration: 10000
+        period: 1000
+
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

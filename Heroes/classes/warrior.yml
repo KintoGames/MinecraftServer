@@ -1,0 +1,57 @@
+name: Warrior
+default: false
+parents:
+    strong: []
+    weak: [Fighter, Rogue]
+primary: false
+secondary: true
+description: A highly armored Warrior from which no one can escape.
+max-level: 30
+permitted-armor:
+- IRON
+- DIAMOND
+permitted-weapon:
+- DIAMOND_AXE
+item-damage:
+item-damage-level:
+projectile-damage:
+projectile-damage-level:
+permitted-skills:
+    Tackle:
+        level: 1
+        mana: 5
+        cooldown: 20000
+        max-distance: 15
+        radius: 3
+        duration: 3000
+        damage: 1        
+    MortalWound:
+        level: 10
+        mana: 3
+        cooldown: 15000
+        max-distance: 15
+        duration: 10000
+        damage: 2
+        delay: 1000
+    Wrestle:
+        level: 20
+        mana: 6
+        cooldown: 20000
+        duration: 10000
+        radius: 3
+        damage: 3
+    InvertDamage:
+        level: 30
+        mana: 8
+        cooldown: 20000
+        duration: 6000 
+experience-sources:
+- KILLING
+- PVP
+- QUESTING
+- EXTERNAL
+expmodifier: 1.0
+expLoss: 0.007
+wildcard-permission: true
+tier: 2
+recipes: [ default ]

@@ -3,8 +3,8 @@ default: false
 parents:
     strong: [Mage]
     weak: []
-primary: true
-secondary: false
+primary: false
+secondary: true
 description: A powerfull magic user
 max-level: 30
 permitted-armor:
@@ -22,78 +22,50 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Telekinesis:
+    Multibolt:
         level: 1
-        mana: 10
-        max-distance: 15
-    MagicArmor:
-        level: 1
-        amount: 0.5
-    Icebolt:
-        level: 1
-        damage: 10
-        cooldown: 2500
-        slow-duration: 2000
-        mana: 5
-    Mark:
-        level: 1
-        mana: 5
-        reagent: BED
-        reagent-cost: 1
-    Recall:
-        level: 1
-        mana: 10
-        cooldown: 60000
-        health-cost: 10
-        delay: 5000
-    Root:
-		level: 1
-		mana: 15
-		max-distance: 15
-		duration: 5000
-    Wisdom:
-        level: 1
-        radius: 1
-        regen-multiplier: 2.0
-        duration: 600000
-        mana: 10
-        cooldown: 301000
-    Fireball:
-        level: 1
-        damage: 15
-        damage-per-level: 1
-        velocity-multiplier: 1.5
-        fire-ticks: 100     
-        mana: 15
+        delay: 100
         cooldown: 10000
+        mana: 15
+        max-distance: 40
+        max-distance-increase: 0
+        max-strikes: 4
+        max-strikes-increase: 0
+        chance: 0.5
+        chance-per-level: 0
+        damage: 1
+        damage-increase: .01
     IceAura:
-        level: 5
-        tick-damage: 2
+        level: 10
+        tick-damage: 1
         tick-damage-increase: 0
         period: 1000
         radius: 10
         raidus-increase: 0
         mana: 20
         mana-reduce: 0.0
-    Blink:
-        max-distance: 12
-        level: 10
+    Glassshield:
+        level: 20
         mana: 10
-        cooldown: 6000  
-    Bolt:
-        level: 15
-        damage: 25
-        cooldown: 4000
-        damage-per-level: 1
-        mana: 15
-        max-distance: 15        
+        cooldown: 6000 
+        min_duration: 20000
+        max_duration: 40000
+        delay: 1000
+    Megabolt:
+        level: 30
+        damage: 2
+        cooldown: 20000
+        damage-per-level: .01
+        mana: 25
+        max-distance: 15 
+        delay: 4000
 
 experience-sources:
 - KILLING
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-health: 50.0
+base-max-health: 100.0
 max-health-per-level: 0.25
 base-max-mana: 50
 max-mana-per-level: 1
