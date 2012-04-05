@@ -11,7 +11,7 @@ permitted-armor:
 - DIAMOND
 permitted-weapon:
 - SHEARS
-- FISHING ROD
+- FISHING_ROD
 - STONE
 - WOOD
 - IRON
