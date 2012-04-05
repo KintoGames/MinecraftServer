@@ -30,7 +30,7 @@ permitted-skills:
     Confuse:
         level: 1
         cooldown: 20000
-        mana:10
+        mana: 10
         max-distance: 15
         duration: 10000
         period: 1000
