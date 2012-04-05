@@ -29,11 +29,11 @@ permitted-skills:
     Bolt:
         level: 1
         damage: 1
-        cooldown: 1000
-        damage-per-level: .01
+        cooldown: 500
+        damage-per-level: 0
         mana: 5
         max-distance: 15 
-        delay: 1000
+        delay: 500
     Mark:
         level: 1
         mana: 5
