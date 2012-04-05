@@ -28,7 +28,7 @@ permitted-skills:
         amount: 0.5
     Bolt:
         level: 1
-        damage: 1
+        damage: 2
         cooldown: 500
         damage-per-level: 0
         mana: 5
