@@ -25,10 +25,9 @@ permitted-skills:
         level:1
     Smite:
         level: 1
-        damage: 1
+        damage: 3
         cooldown: 3000
         mana: 10
-        damage: 10
         delay: 3000
     Light:
         level: 1
