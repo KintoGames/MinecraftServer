@@ -10,6 +10,8 @@ max-level: 10
 permitted-armor:
 - LEATHER
 permitted-weapon:
+- SHEARS
+- FISHING_ROD
 - WOOD
 - STONE
 - IRON_SPADE
@@ -24,10 +26,18 @@ permitted-skills:
     Smite:
         level: 1
         damage: 1
-        cooldown: 5000
+        cooldown: 3000
         mana: 10
         damage: 10
-        delay: 5000
+        delay: 3000
+    Light:
+        level: 1
+        mana: 7
+        use-text: '%hero% used %skill%!'
+        duration: 100000
+        period: 200
+        apply-text: '%hero% is lighting the way.'
+        expire-text: '%hero% is no longer lighting the way'
     Mark:
         level: 1
         mana: 5

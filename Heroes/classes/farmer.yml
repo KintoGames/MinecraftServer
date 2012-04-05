@@ -10,6 +10,7 @@ permitted-armor:
 - GOLD
 - DIAMOND
 permitted-weapon:
+- BOW
 - SHEARS
 - FISHING_ROD
 - STONE

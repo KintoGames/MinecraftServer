@@ -581,6 +581,7 @@ Backstab:
   apply-text: '%hero% gained %skill%!'
   unapply-text: '%hero% lost %skill%!'
   weapons:
+  -BOW
   - WOOD_SWORD
   - STONE_SWORD
   - IRON_SWORD
