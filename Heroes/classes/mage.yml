@@ -10,6 +10,8 @@ max-level: 10
 permitted-armor:
 - LEATHER
 permitted-weapon:
+- SHEARS
+- FISHING_ROD
 - WOOD
 - STONE_PICKAXE
 - STONE_AXE
@@ -21,21 +23,17 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Telekinesis:
-        level: 1
-        mana: 10
-        max-distance: 15
     MagicArmor:
         level: 1
         amount: 0.5
     Bolt:
         level: 1
         damage: 2
-        cooldown: 2000
-        damage-per-level: .01
-        mana: 15
+        cooldown: 500
+        damage-per-level: 0
+        mana: 5
         max-distance: 15 
-        delay: 2000
+        delay: 500
     Mark:
         level: 1
         mana: 5
@@ -50,9 +48,10 @@ permitted-skills:
     Root:
         level: 1
         mana: 15
+        cooldown: 10000
         max-distance: 15
         duration: 5000
-        delay: 2000
+        delay: 1000
     Wisdom:
         level: 5
         radius: 1
@@ -65,6 +64,7 @@ permitted-skills:
         level: 5
         mana: 10
         cooldown: 6000 
+
 experience-sources:
 - KILLING
 - PVP

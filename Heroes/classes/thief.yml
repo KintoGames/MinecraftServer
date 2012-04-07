@@ -23,21 +23,18 @@ permitted-skills:
         attack-chance: 0.5
         sneak-bonus: 4.0
         sneak-chance: 1.0  
-    PickPocket:
+    PoisonArrow:
         level: 1
-        mana: 5
         cooldown: 1000
-        max-distance: 15
-        base-chance: 0.1
-        chance-per-level: 0.0030  
-    Bandage:
+        mana: 1 
+    Confuse:
         level: 1
-        mana: 5
         cooldown: 20000
-        max-distance: 5
-        health: 15
-        reagent: 339
-        reagent-cost: 1  
+        mana: 10
+        max-distance: 15
+        duration: 10000
+        period: 1000
+        max-drift: 0.35
     AssassinsBlade:
         level: 10
         mana: 7

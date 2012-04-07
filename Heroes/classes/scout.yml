@@ -36,10 +36,6 @@ permitted-skills:
         level: 10
         cooldown: 1000
         mana: 5    
-    PoisonArrow:
-        level: 10
-        cooldown: 1000
-        mana: 5    
     Track:
         level: 20
         cooldown: 1000

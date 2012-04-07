@@ -12,6 +12,8 @@ permitted-armor:
 - IRON
 - CHAIN
 permitted-weapon:
+- SHEARS
+- FISHING_ROD
 - WOOD
 - STONE
 - IRON_PICKAXE
@@ -28,6 +30,8 @@ permitted-skills:
         duration: 1000
     Shield:
         level: 1
+    Taunt:
+        level: 1        
     Mark:
         level: 1
         mana: 5

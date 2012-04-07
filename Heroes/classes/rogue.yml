@@ -10,6 +10,8 @@ max-level: 10
 permitted-armor: 
 - LEATHER
 permitted-weapon:
+- SHEARS
+- FISHING_ROD
 - WOOD
 - STONE
 - IRON_PICKAXE
