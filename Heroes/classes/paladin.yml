@@ -43,7 +43,7 @@ permitted-skills:
         mana: 25
         duration: 10000
         period: 1000
-		cooldown: 300000
+        cooldown: 300000
 
 experience-sources:
 - KILLING
