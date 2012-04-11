@@ -17,6 +17,7 @@ permitted-weapon:
 - STONE_AXE
 - STONE_SPADE
 - STONE_HOE
+- GOLD_PICKAXE
 - IRON_PICKAXE
 item-damage:
 item-damage-level:

@@ -25,7 +25,7 @@ permitted-skills:
         duration-increase: 0
         radius: 10
         radius-increase: 0
-        damage: 2
+        damage: 3
     Icebrand:
         level: 10
         cooldown: 500

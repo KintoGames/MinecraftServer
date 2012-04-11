@@ -9,6 +9,7 @@ description: An invincible healing warrior.
 max-level: 30
 permitted-armor:
 - IRON
+- DIAMOND
 permitted-weapon:
 - WOOD
 - STONE
@@ -28,7 +29,7 @@ permitted-skills:
     HealBomb:
         level: 10
         health: 2
-        damage: 5
+        damage: 2
         radius: 6
         cooldown: 2000
         mana: 10
@@ -42,6 +43,7 @@ permitted-skills:
         mana: 25
         duration: 10000
         period: 1000
+		cooldown: 300000
 
 experience-sources:
 - KILLING

@@ -8,9 +8,10 @@ secondary: true
 description: An ancient being who gives life, and taketh away.
 max-level: 30
 permitted-armor:
-- LEATHER
 - IRON
 permitted-weapon:
+- IRON_SPADE
+- GOLD_SPADE
 - DIAMOND_SPADE
 item-damage:
 item-damage-level:

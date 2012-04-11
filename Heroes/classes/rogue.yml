@@ -26,11 +26,11 @@ permitted-skills:
     Critical:
         level: 1
         chance: 0.1
-        chance-per-level: .01
+        chance-per-level: 0
     Dodge:
         level: 1
-        chance: 0.1
-        chance-per-level: .01
+        chance: 0.2
+        chance-per-level: 0
     Sneak:
         level: 1
     Mark:
@@ -48,7 +48,7 @@ permitted-skills:
         level: 5
         mana: 5
         cooldown: 20000
-        speed-multiplier: 1.5        
+        speed-multiplier: 1.25        
 experience-sources:
 - KILLING
 - PVP

@@ -34,7 +34,7 @@ permitted-skills:
         chance: 0.5
         chance-per-level: 0
         damage: 1
-        damage-increase: .01
+        damage-increase: 0
     IceAura:
         level: 10
         tick-damage: 1

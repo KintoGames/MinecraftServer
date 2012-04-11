@@ -11,6 +11,8 @@ permitted-armor:
 - IRON
 - DIAMOND
 permitted-weapon:
+- GOLD_AXE
+- IRON_AXE
 - DIAMOND_AXE
 item-damage:
 item-damage-level:
@@ -24,14 +26,14 @@ permitted-skills:
         max-distance: 15
         radius: 3
         duration: 3000
-        damage: 1        
+        damage: 2        
     MortalWound:
         level: 10
         mana: 3
         cooldown: 15000
         max-distance: 15
         duration: 10000
-        damage: 2
+        damage: 3
         delay: 1000
     Wrestle:
         level: 20
@@ -39,7 +41,7 @@ permitted-skills:
         cooldown: 20000
         duration: 10000
         radius: 3
-        damage: 3
+        damage: 4
     InvertDamage:
         level: 30
         mana: 8

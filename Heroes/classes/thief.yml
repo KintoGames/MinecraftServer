@@ -10,6 +10,8 @@ max-level: 30
 permitted-armor: 
 - LEATHER
 permitted-weapon:
+- IRON_SWORD
+- GOLD_SWORD
 - DIAMOND_SWORD
 - BOW
 item-damage:
