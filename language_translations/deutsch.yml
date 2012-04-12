@@ -1,0 +1,95 @@
+msgs:
+  skyblock: Gib "/skyblock help" für weitere Informationen ein.
+  stopping: Stoppe Skyblock...
+  playersInSb: Es sind Spieler in Skyblock. Skyblock kann nicht deaktiviert werden.
+  isNowOffline: Skyblock ist nun offline.
+  isOffline: Skyblock ist offline.
+  errorOccured: Ein Fehler ist aufgetreten.
+  starting: Starte Skyblock...
+  isNowOnline: Skyblock ist nun online.
+  mustBeOffline: Skyblock muss offline sein, bevor du  es reseten kannst.
+  reseting: Resette Skyblock...
+  isNowReseted: SkyBlock has been reseted.
+  configReloaded: Config wurde neu geladen.
+  languageReloaded: Sprachdatei wurde neu geladen.
+  languageChanged: Sprache wurde geändert.
+  languageNotChanged: Sprache wurde nicht geändert.
+  languageFileNotExists: Sprachdatei existiert nicht.
+  notAuthorized: Du bist nicht autorisiert!
+  statusOffline: Ist Offline
+  statusOnline: Ist Online
+  numberOfIslands: 'Anzahl der Inseln: '
+  numberOfPlayers: 'Anzahl der Spieler: '
+  commands:
+    join: §6/skyblock join§7 - Die Welt Skyblock betreten
+    start: §6/skyblock start§7 - Bei Skyblock mitspielen
+    leave: §6/skyblock leave§7 - Zur alten Position in der alten Welt zurückkehren
+    newIsland: §6/skyblock newIsland §a[player]§7 - Gib dir oder einem anderem Spieler eine neue Insel
+    setOffline: §6/skyblock set offline§7 - deaktiviere Skyblock
+    setOnline: §6/skyblock set online§7 - aktiviere Skyblock
+    towerReCreate: §6/skyblock tower recreate§7 - generiert den Spawnturm neu
+    setLanguage: §6/skyblock set language §c<language>§7 - Sprache ändern
+    setGameMode: §6/skyblock gamemode §c<option>§7 - <build> oder <pvp>
+    setClosed: §6/skyblock set closed§7 - schliesse SkyBlock, kein Spieler mehr kann joinen
+    setOpened: §6/skyblock set opened§7 - öffne SkyBlock, Spieler können wieder joinen
+    setOwner: §6/skyblock setOwner §c<island number> <player>§7 - ändere, setzte den Eigentümer einer Insel
+    reset: §6/skyblock reset§7 - Resette Skyblock
+    reloadConfig: §6/skyblock reload config§7 - Lade die Config-Datei neu
+    reloadLanguage: §6/skyblock reload language§7 - Lade die Sprachdatei neu
+    status: §6/skyblock status§7 - Zeige Informationen zu Skyblock
+    home: §6/skyblock home§7 - teleportiere dich zurück zu deiner Insel
+    homeAdd: §6/skyblock home add §c<player>§7- füge einen Spieler zu deiner Freundesliste
+    homeRemove: §6/skyblock home remove §c<player>§7 - entferne einen Spieler aus deiner Freundesliste
+    homeJoin: §6/skyblock home join §c<player>§7 - teleportiere dich zu einer Insel deines Freundes
+    homeList: §6/skyblock home list§7 - zeigt alle deine Freunde aus der Freundesliste
+    tower: §6/skyblock tower§7 - teleportiere dich zurück zum Spawnturm
+    homeSet: §6/skyblock home set§7 - ändere deinen Spawnpunkt
+  wrongArgs: Falsche oder fehlende Argumente
+  welcome1: 'Willkommen auf der Welt SkyBlock für Multiplayer! Es gibt momentan '
+  welcome2: ' Inseln und '
+  welcome3: ' Spieler. Gib "/skyblock start" ein um eine eigene Insel zu bekommen.'
+  welcomeBack: 'Willkommen zurück '
+  welcomeBroadcast1: 'Der Spieler '
+  welcomeBroadcast2: ' spielt mit.'
+  toNewPlayer: Fall nicht runter und mache kein Obisidian :-).
+  showIslandNumber: 'Du bist auf Inselnummer '
+  leftSkyblock: Du hast Skyblock verlassen.
+  wrongPlayerName: Da ist kein Spieler mit diesem Namen.
+  newIslandPlayer1: 'Der Spieler '
+  newIslandPlayer2: ' hat eine neue Insel.'
+  gotNewIsland1: 'Der Spieler '
+  gotNewIsland2: ' hat dir eine neue Insel gegeben.'
+  sign1Line1: Willkommen in
+  sign1Line2: Skyblock-
+  sign1Line3: Multiplayer
+  sign2Line1: Für mehr
+  sign2Line2: Informationen
+  sign2Line3: /skyblock help
+  sign2Line4: Viel Glück!
+  playerDied1: 'Jetzt sind noch '
+  playerDied2: ' Spieler übrig.'
+  playerWinBroadcast1: 'Der Spieler '
+  playerWinBroadcast2: ' hat das Spiel gewonnen. Glückwunsch!'
+  betterSpecify: There are more players that begin with this name.
+  gameModeChanged: Game mode has been changed.
+  friendRemoved: Friend removed
+  friendAdded: Friend added
+  notFriendFromYou: Not possible, you are not in the players home list!
+  playerAddedYou: ' hat dich zu deiner Freundesliste hinzugefügt.'
+  isNowClosed: SkyBlock ist nun gesperrt.
+  isNowOpened: SkyBlock is nun offen.
+  isClosed: SkyBlock is closed.
+  areaBorders: Geschütztes Gebiet oder Grenzen.
+  onlyInBuildMode: Dies funktioniert nur in Build mode!
+  backOnTower: Du bist nun zurück auf dem Spawnturm.
+  spawnTowerReCreated: Der Spawnturm wurde neu generiert.
+  noMoreLivesAndIslands: GAME OVER!!!. Keine Lebenspunkte und Inseln mehr übrig.!
+  invalidIslandNumber: Ungültige Inselnummer!
+  changedOwnerTo: 'Eigentümer der Insel ist nun '
+  spawnLocationChanged: Dein Spawnpunkt wurde geändert.
+  changeOfHomeLocationOnlyInOwnArea: Du kannst dein Spawnpunkt nur in deiner Region ändern.
+  noIslandTeleportImpossible: Du hast keine Insel, teleportieren nicht möglich.
+  areaOfSpawnTower: Gebiet des Spawnturms.
+  onlyOnTower: Dieser Befehl funktioniert nur vom Tower aus.
+  onlyOutsideOfSb: Dieser Befehl funktioniert nur außerhalb von SkyBlock.
+  onlyInsideOfSb: Dieser Befehl funktioniert nur innerhalb von SkyBlock.
