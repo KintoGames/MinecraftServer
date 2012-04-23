@@ -23,6 +23,14 @@ projectile-damage-level:
 permitted-skills:
     Shield:
         level:1
+	Stun:
+		level:1
+		mana: 5
+		duration: 10000
+		duration-increase: 0
+		damage: 6
+		cooldown: 32000
+		delay: 1000
     Light:
         level: 1
         mana: 7
