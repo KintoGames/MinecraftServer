@@ -49,10 +49,10 @@ permitted-skills:
         mana: 5
         cooldown: 20000
         speed-multiplier: 1.25     
-	SuperJump:
-		mana: 10
-		duration: 5000
-		jump-force: 4.0
+    SuperJump:
+        mana: 10
+        duration: 5000
+        jump-force: 4.0
 experience-sources:
 - KILLING
 - PVP

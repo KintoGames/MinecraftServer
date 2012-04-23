@@ -1,3 +1,4 @@
+
 name: Fighter
 default: false
 parents:
@@ -53,15 +54,11 @@ permitted-skills:
         level: 10
         mana: 5
         mana-tick: 0
-        mana-tick-increase: 0
         radius: 15
-        radius-increase: 0
         duration: 24000
-        duration-increase: 0
         tick-health: 1
-        health-tick-increase: 0
         period: 3000
-        delay: 1000		
+        delay: 1000
 experience-sources:
 - KILLING
 - PVP
