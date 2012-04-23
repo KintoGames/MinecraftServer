@@ -23,12 +23,6 @@ projectile-damage-level:
 permitted-skills:
     Shield:
         level:1
-    Smite:
-        level: 1
-        damage: 3
-        cooldown: 3000
-        mana: 10
-        delay: 3000
     Light:
         level: 1
         mana: 7
@@ -55,21 +49,14 @@ permitted-skills:
         mana: 2
         cooldown: 15000
         delay: 1000
-    Vitalize:
+    Smite:
         level: 5
+        damage: 3
+        cooldown: 3000
         mana: 10
-        mana-tick: 4
-        mana-tick-increase: 0
-        radius: 15
-        radius-increase: 0
-        duration: 12000
-        duration-increase: 0
-        tick-health: 1
-        health-tick-increase: 0
-        period: 3000
-        delay: 1000
+        delay: 3000
     Groupheal:
-        level: 5
+        level: 10
         heal-amount: 6
         radius: 10
         cooldown: 80000
