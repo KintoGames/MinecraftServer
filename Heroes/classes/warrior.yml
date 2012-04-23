@@ -19,6 +19,10 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+	Spines:
+		level: 1
+		chance: 0.15
+		cooldown: 1
     Tackle:
         level: 1
         mana: 5
