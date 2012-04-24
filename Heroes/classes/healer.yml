@@ -51,7 +51,7 @@ permitted-skills:
     Smite:
         level: 5
         damage: 5
-        cooldown: 1000
+        cooldown: 500
         mana: 5
         delay: 1
     Groupheal:
@@ -68,6 +68,7 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
+base-max-health: 30
 base-max-mana: 30
 max-mana-per-level: .75
 mana-regen: 3

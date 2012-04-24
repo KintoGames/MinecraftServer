@@ -60,6 +60,8 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
+
+base-max-health: 25.0
 base-max-mana: 20
 max-mana-per-level: .5
 mana-regen: 2
