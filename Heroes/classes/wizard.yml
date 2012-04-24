@@ -39,10 +39,10 @@ permitted-skills:
         level: 10
         tick-damage: 1
         tick-damage-increase: 0
-        period: 1000
-        radius: 10
+        period: 500
+        radius: 15
         raidus-increase: 0
-        mana: 20
+        mana: 1
         mana-reduce: 0.0
     Glassshield:
         level: 20

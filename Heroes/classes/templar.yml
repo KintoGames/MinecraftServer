@@ -9,7 +9,7 @@ description: An ancient being who gives life, and taketh away.
 max-level: 30
 permitted-armor:
 - IRON
-- DIAMOND
+- GOLD
 permitted-weapon:
 - IRON_SPADE
 - GOLD_SPADE
@@ -23,9 +23,9 @@ permitted-skills:
         level: 1
         mana: 5
         cooldown: 5000   
-        tick-damage: 2
+        tick-damage: 1
         tick-damage-increase: 0
-        period: 1000
+        period: 5
         radius: 10
         raidus-increase: 0
         mana: 1
