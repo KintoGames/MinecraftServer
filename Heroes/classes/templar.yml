@@ -9,6 +9,7 @@ description: An ancient being who gives life, and taketh away.
 max-level: 30
 permitted-armor:
 - IRON
+- DIAMOND
 permitted-weapon:
 - IRON_SPADE
 - GOLD_SPADE
