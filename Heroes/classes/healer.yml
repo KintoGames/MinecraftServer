@@ -28,16 +28,8 @@ permitted-skills:
         mana: 5
         duration: 10000
         damage: 6
-        cooldown: 32000
-        delay: 1000
-    Light:
-        level: 1
-        mana: 7
-        use-text: '%hero% used %skill%!'
-        duration: 100000
-        period: 200
-        apply-text: '%hero% is lighting the way.'
-        expire-text: '%hero% is no longer lighting the way'
+        cooldown: 16000
+        delay: 1
     Mark:
         level: 1
         mana: 5
@@ -54,14 +46,14 @@ permitted-skills:
         max-distance: 15
         health: 5
         mana: 2
-        cooldown: 15000
-        delay: 1000
+        cooldown: 5000
+        delay: 1
     Smite:
         level: 5
         damage: 3
-        cooldown: 3000
+        cooldown: 1000
         mana: 10
-        delay: 3000
+        delay: 1
     Groupheal:
         level: 10
         heal-amount: 6

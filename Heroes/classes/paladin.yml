@@ -31,7 +31,7 @@ permitted-skills:
         health: 2
         damage: 2
         radius: 6
-        cooldown: 2000
+        cooldown: 1000
         mana: 10
     Invuln:
         level: 20
