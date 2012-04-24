@@ -25,9 +25,9 @@ permitted-skills:
         tick-damage: 1
         tick-damage-increase: 0
         period: 500
-        radius: 10
+        radius: 3
         raidus-increase: 0
-        mana: 1
+        mana: .5
         mana-reduce: 0.0    
     Slow:
         level: 10
