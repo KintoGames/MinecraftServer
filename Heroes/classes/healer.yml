@@ -50,9 +50,9 @@ permitted-skills:
         delay: 1
     Smite:
         level: 5
-        damage: 3
+        damage: 5
         cooldown: 1000
-        mana: 10
+        mana: 5
         delay: 1
     Groupheal:
         level: 10
