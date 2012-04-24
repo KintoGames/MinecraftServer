@@ -9,7 +9,6 @@ description: An ancient being who gives life, and taketh away.
 max-level: 30
 permitted-armor:
 - IRON
-- GOLD
 permitted-weapon:
 - IRON_SPADE
 - GOLD_SPADE
@@ -22,10 +21,10 @@ permitted-skills:
     BurningPresence:
         level: 1
         mana: 5
-        cooldown: 5000   
+        cooldown: 0
         tick-damage: 1
         tick-damage-increase: 0
-        period: 5
+        period: 500
         radius: 10
         raidus-increase: 0
         mana: 1
