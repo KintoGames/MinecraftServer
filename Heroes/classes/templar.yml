@@ -23,9 +23,9 @@ permitted-skills:
         level: 1
         mana: 5
         cooldown: 5000   
-        tick-damage: 1
+        tick-damage: 2
         tick-damage-increase: 0
-        period: 5000
+        period: 1000
         radius: 10
         raidus-increase: 0
         mana: 1
@@ -38,7 +38,7 @@ permitted-skills:
         speed-multiplier: 2
         duration: 15000
         duration-increase: 0
-        damage: 1
+        damage: 2
         damage-increase: 0    
     Despair:
         level: 20
@@ -48,7 +48,7 @@ permitted-skills:
         radius-increase: 0
         duration: 10000
         duration-increase: 0
-        damage: 2
+        damage: 4
         damage-increase: 0    
     Pandemic:
         level: 30
@@ -56,7 +56,7 @@ permitted-skills:
         cooldown: 25000   
         radius: 10
         radius-increase: 0
-        damage: 3
+        damage: 6
         damage-increase: 0
         period: 2000
         duration: 20000
@@ -67,10 +67,6 @@ experience-sources:
 - QUESTING
 - EXTERNAL
 expmodifier: 1.0
-base-max-mana: 40
-max-mana-per-level: .75
-mana-regen: 3
-mana-regen-per-level: .075
 expLoss: 0.007
 wildcard-permission: true
 tier: 2

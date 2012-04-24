@@ -58,7 +58,7 @@ permitted-skills:
         level: 10
         heal-amount: 6
         radius: 10
-        cooldown: 80000
+        cooldown: 1000
         mana: 4
         delay: 1000
 
