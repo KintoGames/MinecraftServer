@@ -36,10 +36,11 @@ permitted-skills:
         level: 10
         cooldown: 1000
         mana: 5    
-    Track:
+    Hunt:
         level: 20
-        cooldown: 1000
-        mana: 10 
+        mana: 5
+        radius: 200
+        cooldown: 60000
     Arrowstorm:
         level: 30
         cooldown: 1000

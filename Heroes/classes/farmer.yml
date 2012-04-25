@@ -30,6 +30,33 @@ permitted-skills:
         cooldown: 60000
         health-cost: 10
         delay: 5000
+    Mining:
+        level: 2
+        mana: 5        
+        chance-per-level: 0.0010
+        chance-from-stone: 5.0E-4
+    Herbalism:
+        level: 4
+        mana: 5        
+        chance-per-level: 0.0010
+    Woodcutting:
+        level: 6
+        mana: 5        
+        chance-per-level: 0.0010
+    Repair:
+        level: 8
+        mana: 10
+        cooldown: 10000  
+    Superheat:
+        level: 10
+        mana: 5        
+        duration: 20000
+    Excavate:
+        level: 12
+        mana: 5
+        cooldown: 10000
+        speed-multiplier: 2
+        duration-per-level: 100        
 experience-sources:
 - KILLING
 - CRAFTING
@@ -40,6 +67,11 @@ experience-sources:
 - EXTERNAL
 permission-skills:
 expmodifier: 1.0
+base-max-health: 20.0
+base-max-mana: 30
+max-mana-per-level: .25
+mana-regen: 1
+mana-regen-per-level: .025
 item-damage:
 projectile-damage:
 expLoss: 0

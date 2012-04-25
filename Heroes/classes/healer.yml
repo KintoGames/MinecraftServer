@@ -21,6 +21,8 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
+    Shield:
+        level: 1
     Dispel:
         level: 1
         mana: 5

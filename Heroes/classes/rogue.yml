@@ -29,7 +29,7 @@ permitted-skills:
         chance-per-level: 0
     Dodge:
         level: 1
-        chance: 0.2
+        chance: 0.1
         chance-per-level: 0
     Sneak:
         level: 1
@@ -48,12 +48,12 @@ permitted-skills:
         level: 5
         mana: 5
         cooldown: 20000
-        speed-multiplier: 1.25     
-    SuperJump:
+        speed-multiplier: 1.25  
+    Smoke:
         level: 10
-        mana: 10
+        mana: 5
         duration: 5000
-        jump-force: 4.0
+        cooldown: 30000        
 experience-sources:
 - KILLING
 - PVP

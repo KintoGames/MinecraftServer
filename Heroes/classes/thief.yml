@@ -47,18 +47,18 @@ permitted-skills:
         attacks: 1
         apply-text: '%target% is poisoned!'
         expire-text: '%target% has recovered from the poison!'
-    Curse:
+    SuperJump:
         level: 20
+        mana: 5
+        duration: 5000
+        jump-force: 4.0             
+    Curse:
+        level: 30
         mana: 8
         cooldown: 20000
         max-distance: 15
         duration: 5000
         miss-chance: 0.5
-    Smoke:
-        level: 30
-        mana: 5
-        duration: 5000
-        cooldown: 60000
 experience-sources:
 - KILLING
 - PVP
