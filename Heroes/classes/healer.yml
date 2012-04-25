@@ -21,14 +21,18 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Shield:
+    Dispel:
         level: 1
+        mana: 5
+        cooldown: 10000
+        max-distance: 15
+        max-removals: 3
     Stun:
         level: 1
         mana: 5
-        duration: 10000
+        duration: 5000
         damage: 6
-        cooldown: 16000
+        cooldown: 10000
         delay: 1
     Mark:
         level: 1
@@ -43,24 +47,24 @@ permitted-skills:
         delay: 5000
     Pray:
         level: 1
-        max-distance: 15
-        health: 5
-        mana: 2
-        cooldown: 5000
+        max-distance: 20
+        health: 1
+        mana: 1
+        cooldown: 500
         delay: 1
     Smite:
         level: 5
-        damage: 5
+        damage: 3
         cooldown: 500
         mana: 5
         delay: 1
     Groupheal:
         level: 10
-        heal-amount: 6
-        radius: 10
-        cooldown: 1000
+        heal-amount: 10
+        radius: 20
+        cooldown: 5000
         mana: 4
-        delay: 1000
+        delay: 1
 
 experience-sources:
 - KILLING

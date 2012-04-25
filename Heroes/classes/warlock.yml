@@ -18,22 +18,28 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    SonicBoom:
-        mana: 10
-        delay: 2000
-        duration: 10000
+    Slow:
+        level: 1
+        mana: 5
+        cooldown: 20000  
+        max-distance: 20
+        speed-multiplier: 2
+        duration: 15000
         duration-increase: 0
-        radius: 10
+        damage: 8
+        damage-increase: 0
+    SonicBoom:
+        level: 1
+        mana: 5
+        delay: 0
+        duration: 10000
+        cooldown: 1000
+        duration-increase: 0
+        radius: 15
         radius-increase: 0
         damage: 5
     Icebrand:
         level: 10
-        cooldown: 500
-        duration: 2000
-    VoidBlade:
-        level: 20
-        chance: 0.2
-        chance-per-level: 0.0
         cooldown: 500
         duration: 2000
     Void:
