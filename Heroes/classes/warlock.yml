@@ -32,12 +32,12 @@ permitted-skills:
         level: 1
         mana: 5
         delay: 0
-        duration: 10000
+        duration: 2000
         cooldown: 1000
         duration-increase: 0
-        radius: 15
+        radius: 10
         radius-increase: 0
-        damage: 5
+        damage: 2
     Icebrand:
         level: 10
         cooldown: 500
