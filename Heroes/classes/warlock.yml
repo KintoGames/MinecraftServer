@@ -18,16 +18,6 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    Slow:
-        level: 1
-        mana: 5
-        cooldown: 20000  
-        max-distance: 20
-        speed-multiplier: 2
-        duration: 15000
-        duration-increase: 0
-        damage: 8
-        damage-increase: 0
     SonicBoom:
         level: 1
         mana: 5
@@ -42,6 +32,13 @@ permitted-skills:
         level: 10
         cooldown: 500
         duration: 2000
+    Curse:
+        level: 20
+        mana: 8
+        cooldown: 10000
+        max-distance: 15
+        duration: 5000
+        miss-chance: 0.5
     Void:
         level: 30
         mana: 15

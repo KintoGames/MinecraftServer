@@ -36,7 +36,7 @@ permitted-skills:
         max-distance: 15
         duration: 10000
         period: 1000
-        max-drift: 0.35
+        max-drift: 0.5
     AssassinsBlade:
         level: 10
         mana: 7
@@ -44,21 +44,24 @@ permitted-skills:
         poison-duration: 10000
         period: 2000
         tick-damage: 1
-        attacks: 1
+        attacks: 1000
         apply-text: '%target% is poisoned!'
         expire-text: '%target% has recovered from the poison!'
     SuperJump:
         level: 20
         mana: 5
         duration: 5000
-        jump-force: 4.0             
-    Curse:
+        jump-force: 4.0    
+    Despair:
         level: 30
         mana: 8
         cooldown: 20000
-        max-distance: 15
+        use-text: '%hero% used %skill%!'
+        radius: 15
+        radius-increase: 0
         duration: 5000
-        miss-chance: 0.5
+        duration-increase: 0
+        damage: 5
 experience-sources:
 - KILLING
 - PVP

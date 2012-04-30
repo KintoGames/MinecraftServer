@@ -26,10 +26,10 @@ projectile-damage-level:
 permitted-skills:
     MagicArmor:
         level: 1
-        amount: 0.5
+        amount: 0.75
     Bolt:
         level: 1
-        damage: 2
+        damage: 3
         cooldown: 500
         damage-per-level: 0
         mana: 5
@@ -52,15 +52,15 @@ permitted-skills:
         cooldown: 10000
         max-distance: 15
         duration: 5000
-        delay: 1000
-    Wisdom:
+        delay: 1
+    Glassshield:
         level: 5
-        radius: 1
-        regen-multiplier: 2.0
-        duration: 600000
         mana: 10
-        cooldown: 301000
-    Blink:
+        cooldown: 6000 
+        min_duration: 20000
+        max_duration: 40000
+        delay: 1
+    Escape:
         max-distance: 12
         level: 10
         mana: 10

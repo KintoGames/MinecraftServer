@@ -37,7 +37,7 @@ permitted-skills:
         cooldown: 15000
         max-distance: 15
         duration: 10000
-        damage: 3
+        damage: 4
         delay: 1000
     Wrestle:
         level: 20
@@ -45,7 +45,7 @@ permitted-skills:
         cooldown: 20000
         duration: 10000
         radius: 3
-        damage: 4
+        damage: 6
     InvertDamage:
         level: 30
         mana: 8

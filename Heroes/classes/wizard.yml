@@ -1,7 +1,7 @@
 name: Wizard
 default: false
 parents:
-    strong: [Mage]
+    strong: [Mage, Healer]
     weak: []
 primary: false
 secondary: true
@@ -17,7 +17,6 @@ permitted-weapon:
 - STONE_HOE
 - IRON_PICKAXE
 item-damage:
-  WOOD_SWORD: 1  
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
@@ -33,7 +32,7 @@ permitted-skills:
         max-strikes-increase: 0
         chance: 0.5
         chance-per-level: 0
-        damage: 1
+        damage: 3
         damage-increase: 0
     IceAura:
         level: 10
@@ -44,16 +43,14 @@ permitted-skills:
         raidus-increase: 0
         mana: .5
         mana-reduce: 0.0
-    Glassshield:
+    Smoke:
         level: 20
-        mana: 10
-        cooldown: 6000 
-        min_duration: 20000
-        max_duration: 40000
-        delay: 1000
+        mana: 5
+        duration: 30000
+        cooldown: 30000  
     Megabolt:
         level: 30
-        damage: 2
+        damage: 10
         cooldown: 20000
         damage-per-level: .01
         mana: 25
