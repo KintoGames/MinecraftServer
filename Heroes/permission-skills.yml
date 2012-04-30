@@ -2,4 +2,8 @@ Example:
   usage: This is an EXAMPLE!
   permissions:
   - plugin.example.node.here
+Stealing:
+  usage: Steal from other players
+  permissions:
+  - thieves.steal
   

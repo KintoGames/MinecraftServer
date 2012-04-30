@@ -18,6 +18,9 @@ item-damage:
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
+permission-skills:
+    Stealing:
+        level: 1
 permitted-skills:
     Backstab:
         level: 1

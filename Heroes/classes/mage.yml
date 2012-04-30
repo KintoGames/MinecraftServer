@@ -65,6 +65,13 @@ permitted-skills:
         level: 10
         mana: 10
         cooldown: 6000 
+    Wisdom:
+        level: 10
+        radius: 15
+        regen-multiplier: 2.0
+        duration: 10000
+        mana: 10
+        cooldown: 20000
 
 experience-sources:
 - KILLING
