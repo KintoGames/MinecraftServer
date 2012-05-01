@@ -6,4 +6,7 @@ Stealing:
   usage: Steal from other players
   permissions:
   - thieves.steal
-  
+Reveal : 
+  usage: Detect Invisibility
+  permissions:
+  - vanish.see

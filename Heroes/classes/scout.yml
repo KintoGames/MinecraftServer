@@ -15,6 +15,9 @@ item-damage:
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
+permission-skills:
+    Reveal:
+        level: 1
 permitted-skills:
     SummonArrow:
         level: 1
