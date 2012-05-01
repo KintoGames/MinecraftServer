@@ -52,7 +52,7 @@ permitted-skills:
     Smoke:
         level: 10
         mana: 5
-        duration: 30000
+        duration: 35000
         cooldown: 30000        
 experience-sources:
 - KILLING

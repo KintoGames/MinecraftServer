@@ -24,7 +24,7 @@ permitted-skills:
     Multibolt:
         level: 1
         delay: 100
-        cooldown: 10000
+        cooldown: 5000
         mana: 15
         max-distance: 40
         max-distance-increase: 0
@@ -46,16 +46,15 @@ permitted-skills:
     Smoke:
         level: 20
         mana: 5
-        duration: 30000
+        duration: 15000
         cooldown: 30000  
     Megabolt:
         level: 30
         damage: 10
-        cooldown: 20000
-        damage-per-level: .01
+        cooldown: 10000
         mana: 25
         max-distance: 15 
-        delay: 4000
+        delay: 1
 
 experience-sources:
 - KILLING
