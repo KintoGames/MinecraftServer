@@ -43,10 +43,10 @@ permitted-skills:
         delay: 1
     SonicBoom:
         level: 20
-        mana: 8
+        mana: 5
         delay: 0
         duration: 1000
-        cooldown: 5000
+        cooldown: 8000
         duration-increase: 0
         radius: 15
         radius-increase: 0
