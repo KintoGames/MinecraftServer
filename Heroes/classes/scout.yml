@@ -19,7 +19,7 @@ permission-skills:
     Reveal:
         level: 1
     Arrows:
-        level: 1		
+        level: 1
 permitted-skills:
     Arrowblast:
         level: 1
