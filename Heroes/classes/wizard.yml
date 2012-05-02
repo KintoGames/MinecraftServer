@@ -1,7 +1,7 @@
 name: Wizard
 default: false
 parents:
-    strong: [Mage, Healer]
+    strong: [Mage, Healer, Rogue]
     weak: []
 primary: false
 secondary: true
@@ -24,7 +24,7 @@ permitted-skills:
     Multibolt:
         level: 1
         delay: 100
-        cooldown: 5000
+        cooldown: 2500
         mana: 15
         max-distance: 40
         max-distance-increase: 0
@@ -34,25 +34,28 @@ permitted-skills:
         chance-per-level: 0
         damage: 3
         damage-increase: 0
-    IceAura:
+    Glassshield:
         level: 10
-        tick-damage: 1
-        tick-damage-increase: 0
-        period: 500
-        radius: 7
-        raidus-increase: 0
-        mana: .5
-        mana-reduce: 0.0
-    Smoke:
+        mana: 10
+        cooldown: 6000 
+        min_duration: 20000
+        max_duration: 40000
+        delay: 1
+    SonicBoom:
         level: 20
-        mana: 5
-        duration: 15000
-        cooldown: 30000  
+        mana: 8
+        delay: 0
+        duration: 1000
+        cooldown: 5000
+        duration-increase: 0
+        radius: 15
+        radius-increase: 0
+        damage: 8
     Megabolt:
         level: 30
-        damage: 10
+        damage: 12
         cooldown: 10000
-        mana: 25
+        mana: 15
         max-distance: 15 
         delay: 1
 

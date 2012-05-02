@@ -27,27 +27,31 @@ permitted-skills:
         period: 500
         radius: 3
         raidus-increase: 0
-        mana: .5
+        mana: 1
         mana-reduce: 0.0   
-    Lifesteal:
+    Fireball:
         level: 10
-        health-per-attack: 1
-        health-increase: 0
-        cooldown: 500
-        cooldown-reduce: 0
-    Despair:
+        cooldown: 5000
+        mana: 6
+        damage: 2
+        velocity-multiplier: 1.5
+        fire-ticks: 100
+    Chaser:
         level: 20
-        mana: 16
-        cooldown: 15000  
-        radius: 10
-        radius-increase: 0
-        duration: 10000
+        mana: 6
+        cooldown: 10000
+        max-distance: 15
+        duration: 5000
         duration-increase: 0
-        damage: 4
-        damage-increase: 0    
+        period: 1000
+        tick-damage: 2
+        tick-damage-increase: 0
+        damage: 5
+        damage-increase: 0
+        max-distance-increase: 0
     Pandemic:
         level: 30
-        mana: 15
+        mana: 8
         cooldown: 25000   
         radius: 10
         radius-increase: 0

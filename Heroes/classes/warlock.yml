@@ -18,27 +18,26 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permitted-skills:
-    SonicBoom:
+    Icebolt:
         level: 1
-        mana: 5
-        delay: 0
-        duration: 1000
-        cooldown: 2000
-        duration-increase: 0
-        radius: 10
-        radius-increase: 0
-        damage: 3
+        cooldown: 500
+        mana: 2
+        delay: 1
+        damage: 2
+        slow-duration: 1000
     Icebrand:
         level: 10
         cooldown: 500
         duration: 2000
-    Curse:
+    IceAura:
         level: 20
-        mana: 8
-        cooldown: 10000
-        max-distance: 15
-        duration: 5000
-        miss-chance: 0.5
+        tick-damage: 1
+        tick-damage-increase: 0
+        period: 500
+        radius: 7
+        raidus-increase: 0
+        mana: 1
+        mana-reduce: 0.0
     Void:
         level: 30
         mana: 15

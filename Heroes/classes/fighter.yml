@@ -18,7 +18,6 @@ permitted-weapon:
 - STONE
 - IRON_PICKAXE
 - IRON_AXE
-- IRON_SWORD
 - GOLD_AXE
 
 permitted-skills:
