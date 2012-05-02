@@ -10,7 +10,7 @@ Reveal :
   usage: Detect Invisibility
   permissions:
   - vanish.see
-Reveal : 
+Arrows : 
   usage: Infinite Arrows
   permissions:
   - infiniArrow.arrow
