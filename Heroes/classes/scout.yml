@@ -18,12 +18,9 @@ projectile-damage-level:
 permission-skills:
     Reveal:
         level: 1
+    Arrows:
+        level: 1		
 permitted-skills:
-    SummonArrow:
-        level: 1
-        cooldown: 1000
-        mana: 10
-        amount: 10         
     Arrowblast:
         level: 1
         mana: 10
