@@ -40,7 +40,7 @@ permitted-skills:
         reagent-cost: 1
     Recall:
         level: 1
-        mana: 40
+        mana: 10
         cooldown: 60000
         health-cost: 10
         delay: 5000
