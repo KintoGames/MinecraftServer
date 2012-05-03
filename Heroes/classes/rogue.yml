@@ -53,7 +53,13 @@ permitted-skills:
         level: 10
         mana: 5
         duration: 35000
-        cooldown: 30000        
+        cooldown: 30000
+    Timebomb:
+        level: 10
+        mana: 20
+        max-distance: 4
+        max-distance-increase: 0
+        max-tnt: 1
 experience-sources:
 - KILLING
 - PVP

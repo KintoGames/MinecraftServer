@@ -17,6 +17,35 @@ permitted-weapon:
 item-damage:
 item-damage-level:
 projectile-damage:
+    wood_sword: 1
+    stone_sword: 2
+    iron_sword: 3
+    diamond_sword: 4
+    gold_sword: 6
+    
+    wood_spade: 1
+    stone_spade: 2
+    iron_spade: 3
+    diamond_spade: 4
+    gold_spade: 6
+    
+    wood_pickaxe: 1
+    stone_pickaxe: 2
+    iron_pickaxe: 3
+    diamond_pickaxe: 4
+    gold_pickaxe: 6
+    
+    wood_hoe: 1
+    stone_hoe: 2
+    iron_hoe: 3
+    diamond_hoe: 4
+    gold_hoe: 6
+    
+    wood_axe: 3
+    stone_axe: 4
+    iron_axe: 5
+    diamond_axe: 7
+    gold_axe: 8
 projectile-damage-level:
 permitted-skills:
     Spines:
