@@ -69,7 +69,7 @@ expmodifier: 1.0
 
 base-max-health: 25.0
 base-max-mana: 20
-max-mana-per-level: .5
+max-mana-per-level:
 mana-regen: 2
 mana-regen-per-level: .05
 expLoss: 0.007

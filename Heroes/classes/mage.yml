@@ -72,7 +72,7 @@ experience-sources:
 - QUESTING
 expmodifier: 1.0
 base-max-mana: 40
-max-mana-per-level: 1
+max-mana-per-level:
 mana-regen: 4
 mana-regen-per-level: .1
 expLoss: 0.007
