@@ -21,7 +21,7 @@ projectile-damage-level:
 permitted-skills:
     Spines:
         level: 1
-        chance: 0.15
+        chance: 0.25
         cooldown: 1
     Tackle:
         level: 1
@@ -30,14 +30,14 @@ permitted-skills:
         max-distance: 15
         radius: 3
         duration: 3000
-        damage: 2        
+        damage: 4      
     MortalWound:
         level: 10
         mana: 3
         cooldown: 15000
         max-distance: 15
         duration: 10000
-        damage: 4
+        damage: 6
         delay: 1000
     Wrestle:
         level: 20
@@ -45,7 +45,7 @@ permitted-skills:
         cooldown: 20000
         duration: 10000
         radius: 3
-        damage: 6
+        damage: 8
     InvertDamage:
         level: 30
         mana: 8
