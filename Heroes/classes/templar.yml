@@ -32,13 +32,13 @@ permitted-skills:
     Fireball:
         level: 10
         cooldown: 5000
-        mana: 6
+        mana: 15
         damage: 2
         velocity-multiplier: 1.5
         fire-ticks: 100
     Chaser:
         level: 20
-        mana: 6
+        mana: 25
         cooldown: 10000
         max-distance: 15
         duration: 5000
@@ -51,7 +51,7 @@ permitted-skills:
         max-distance-increase: 0
     Pandemic:
         level: 30
-        mana: 8
+        mana: 15
         cooldown: 25000   
         radius: 10
         radius-increase: 0

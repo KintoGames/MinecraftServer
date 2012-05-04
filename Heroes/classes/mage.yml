@@ -32,7 +32,7 @@ permitted-skills:
         damage: 3
         cooldown: 500
         damage-per-level: 0
-        mana: 5
+        mana: 10
         max-distance: 15 
         delay: 500
     Mark:
@@ -63,7 +63,7 @@ permitted-skills:
         radius: 15
         regen-multiplier: 2.0
         duration: 10000
-        mana: 10
+        mana: 25
         cooldown: 20000
 
 experience-sources:
@@ -71,10 +71,7 @@ experience-sources:
 - PVP
 - QUESTING
 expmodifier: 1.0
-base-max-mana: 40
-max-mana-per-level:
 mana-regen: 4
-mana-regen-per-level: .1
 expLoss: 0.007
 wildcard-permission: true
 tier: 1

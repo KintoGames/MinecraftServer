@@ -21,7 +21,7 @@ permitted-skills:
     Icebolt:
         level: 1
         cooldown: 500
-        mana: 2
+        mana: 10
         delay: 1
         damage: 2
         slow-duration: 1000
@@ -40,7 +40,7 @@ permitted-skills:
         mana-reduce: 0.0
     Void:
         level: 30
-        mana: 15
+        mana: 10
         cooldown: 20000
         duration: 5000
 experience-sources:

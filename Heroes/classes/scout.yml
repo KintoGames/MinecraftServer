@@ -23,7 +23,7 @@ permission-skills:
 permitted-skills:
     Arrowblast:
         level: 1
-        mana: 10
+        mana: 15
         max_arrows: 30
         min_arrows: 15
         min_rate: 2
@@ -31,11 +31,11 @@ permitted-skills:
     IceArrow:
         level: 10
         cooldown: 1000
-        mana: 2    
+        mana: 10
     FireArrow:
         level: 10
         cooldown: 1000
-        mana: 5    
+        mana: 10    
     Hunt:
         level: 20
         mana: 5
@@ -44,7 +44,7 @@ permitted-skills:
     Arrowstorm:
         level: 30
         cooldown: 1000
-        mana: 10
+        mana: 25
 experience-sources:
 - KILLING
 - PVP

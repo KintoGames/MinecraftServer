@@ -25,7 +25,7 @@ permitted-skills:
         cooldown: 1
     Tackle:
         level: 1
-        mana: 5
+        mana: 15
         cooldown: 20000
         max-distance: 15
         radius: 3
@@ -33,7 +33,7 @@ permitted-skills:
         damage: 4      
     MortalWound:
         level: 10
-        mana: 3
+        mana: 20
         cooldown: 15000
         max-distance: 15
         duration: 10000
@@ -41,14 +41,14 @@ permitted-skills:
         delay: 1000
     Wrestle:
         level: 20
-        mana: 6
+        mana: 25
         cooldown: 20000
         duration: 10000
         radius: 3
         damage: 8
     InvertDamage:
         level: 30
-        mana: 8
+        mana: 5
         cooldown: 20000
         duration: 6000 
 experience-sources:

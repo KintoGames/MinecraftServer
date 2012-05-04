@@ -28,7 +28,7 @@ permitted-skills:
         cooldown-reduce: 0
     Slow:
         level: 1
-        mana: 5
+        mana: 15
         cooldown: 20000  
         max-distance: 20
         speed-multiplier: 2
@@ -42,7 +42,7 @@ permitted-skills:
         damage: 2
         radius: 6
         cooldown: 1000
-        mana: 5
+        mana: 10
     Invuln:
         level: 20
         mana: 15

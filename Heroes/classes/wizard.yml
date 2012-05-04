@@ -25,7 +25,7 @@ permitted-skills:
         level: 1
         delay: 100
         cooldown: 2500
-        mana: 15
+        mana: 10
         max-distance: 40
         max-distance-increase: 0
         max-strikes: 4
@@ -43,7 +43,7 @@ permitted-skills:
         delay: 1
     SonicBoom:
         level: 20
-        mana: 5
+        mana: 25
         delay: 0
         duration: 1000
         cooldown: 8000
@@ -55,7 +55,7 @@ permitted-skills:
         level: 30
         damage: 12
         cooldown: 10000
-        mana: 15
+        mana: 30
         max-distance: 15 
         delay: 1
 

@@ -43,13 +43,13 @@ permitted-skills:
         health-cost: 10
         delay: 5000
     Might:
-        level: 5
+        level: 10
         damage-bonus: 1.25
         mana: 1
         delay: 0
         cooldown: 500
     Vitalize:
-        level: 10
+        level: 15
         mana: 2
         mana-tick: 0
         radius: 15
@@ -64,10 +64,8 @@ experience-sources:
 - EXTERNAL
 expmodifier: 1.0
 base-max-health: 35.0
-base-max-mana: 10
 max-mana-per-level:
 mana-regen: 1
-mana-regen-per-level: .025
 expLoss: 0.007
 wildcard-permission: true
 tier: 1

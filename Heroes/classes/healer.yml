@@ -75,10 +75,8 @@ experience-sources:
 - EXTERNAL
 expmodifier: 1.0
 base-max-health: 30
-base-max-mana: 30
 max-mana-per-level:
 mana-regen: 3
-mana-regen-per-level: .075
 expLoss: 0.007
 wildcard-permission: true
 tier: 1

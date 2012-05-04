@@ -46,17 +46,17 @@ permitted-skills:
         delay: 5000
     One:
         level: 5
-        mana: 5
+        mana: 15
         cooldown: 20000
         speed-multiplier: 1.25  
     Smoke:
         level: 10
-        mana: 5
+        mana: 10
         duration: 35000
         cooldown: 30000
     Timebomb:
         level: 10
-        mana: 20
+        mana: 75
         max-distance: 4
         max-distance-increase: 0
         max-tnt: 1
@@ -70,7 +70,6 @@ expmodifier: 1.0
 base-max-health: 25.0
 max-mana-per-level:
 mana-regen: 2
-mana-regen-per-level: .05
 expLoss: 0.007
 wildcard-permission: true
 tier: 1
