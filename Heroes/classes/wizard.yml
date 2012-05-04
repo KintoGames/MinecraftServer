@@ -1,8 +1,8 @@
 name: Wizard
 default: false
 parents:
-    strong: [Mage, Healer, Rogue]
-    weak: []
+    strong: []
+    weak: [Mage, Healer, Rogue]
 primary: false
 secondary: true
 description: A powerfull magic user
