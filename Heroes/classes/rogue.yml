@@ -15,7 +15,9 @@ permitted-weapon:
 - WOOD
 - STONE
 - IRON_PICKAXE
+- IRON_AXE
 - IRON_SWORD
+- GOLD_AXE
 - GOLD_SWORD
 - BOW
 item-damage:
@@ -25,11 +27,11 @@ projectile-damage-level:
 permitted-skills:
     Critical:
         level: 1
-        chance: 0.1
+        chance: 0.25
         chance-per-level: 0
     Dodge:
         level: 1
-        chance: 0.1
+        chance: 0.25
         chance-per-level: 0
     Sneak:
         level: 1
