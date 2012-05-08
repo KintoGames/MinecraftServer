@@ -56,12 +56,10 @@ permitted-skills:
         mana: 10
         duration: 35000
         cooldown: 30000
-    Timebomb:
+    Creeper:
         level: 10
-        mana: 75
-        max-distance: 4
-        max-distance-increase: 0
-        max-tnt: 1
+        cooldown: 100000
+        mana: 100
 experience-sources:
 - KILLING
 - PVP

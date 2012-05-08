@@ -16,13 +16,21 @@ item-damage-level:
 projectile-damage:
 projectile-damage-level:
 permission-skills:
-    Reveal:
-        level: 1
     Arrows:
         level: 1
 permitted-skills:
+    Despair:
+        level: 1
+        mana: 30
+        cooldown: 15000
+        use-text: '%hero% used %skill%!'
+        radius: 64
+        duration: 1000
+        duration-increase: 0
+        damage: 1
     Arrowblast:
         level: 1
+		cooldown: 5000
         mana: 15
         max_arrows: 30
         min_arrows: 15
@@ -39,11 +47,11 @@ permitted-skills:
     Hunt:
         level: 20
         mana: 5
-        radius: 200
-        cooldown: 60000
+        radius: 32
+        cooldown: 32000
     Arrowstorm:
         level: 30
-        cooldown: 1000
+        cooldown: 2500
         mana: 25
 experience-sources:
 - KILLING

@@ -67,6 +67,10 @@ permitted-skills:
         cooldown: 5000
         mana: 4
         delay: 1
+    Creeper:
+        level: 10
+        cooldown: 100000
+        mana: 100		
 
 experience-sources:
 - KILLING
