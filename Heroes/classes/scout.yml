@@ -30,7 +30,7 @@ permitted-skills:
         damage: 1
     Arrowblast:
         level: 1
-		cooldown: 5000
+        cooldown: 5000
         mana: 15
         max_arrows: 30
         min_arrows: 15
