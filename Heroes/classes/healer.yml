@@ -70,7 +70,7 @@ permitted-skills:
     Creeper:
         level: 10
         cooldown: 100000
-        mana: 100		
+        mana: 100
 
 experience-sources:
 - KILLING
