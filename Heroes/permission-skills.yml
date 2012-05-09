@@ -15,5 +15,5 @@ Magic :
   permissions:
   - magicspells.grant.bind
   - magicspells.grant.summon
-  - magicspells.grant.levitate
+  - magicspells.grant.windwalk
   
