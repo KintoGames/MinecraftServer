@@ -6,11 +6,14 @@ Stealing:
   usage: Steal from other players
   permissions:
   - thieves.steal
-Reveal : 
-  usage: Detect Invisibility
-  permissions:
-  - vanish.see
 Arrows : 
   usage: Infinite Arrows
   permissions:
   - infiniArrow.arrow
+Magic : 
+  usage: Magic Spells
+  permissions:
+  - magicspells.grant.bind
+  - magicspells.grant.summon
+  - magicspells.grant.levitate
+  
