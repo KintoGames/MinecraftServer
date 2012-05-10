@@ -65,11 +65,6 @@ permitted-skills:
         duration: 10000
         mana: 25
         cooldown: 20000
-    Creeper:
-        level: 10
-        cooldown: 100000
-        mana: 100
-
 experience-sources:
 - KILLING
 - PVP
