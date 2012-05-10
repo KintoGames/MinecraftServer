@@ -20,10 +20,10 @@ item-damage:
 item-damage-level:
 projectile-damage:
 projectile-damage-level:
-permitted-skills:
 permission-skills:
     Magic:
         level: 1
+permitted-skills:
     Multibolt:
         level: 1
         delay: 100
