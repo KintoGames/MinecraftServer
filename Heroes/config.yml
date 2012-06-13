@@ -23,9 +23,9 @@ classes:
   first-swap-free: true
   use-prefix: false
   reset-exp-on-change: true
-  reset-master-on-change: false
-  reset-prof-master-on-change: false
-  reset-prof-on-pri-change: false
+  reset-master-on-change: true
+  reset-prof-master-on-change: true
+  reset-prof-on-pri-change: true
   lock-till-master: false
   lock-at-max-level: false
 properties:
