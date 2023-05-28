@@ -1,0 +1,20 @@
+TO do permissions in this verions of github.
+
+The main permission is globalsgroups.yml.
+
+example:
+groups:
+
+  g:essentials_default:
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    - essentials.rules
+    - essentials.spawn
+    - groupmanager.notify.self
+    - heroes.classes.*
+    - heroes.bind
+
+
